@@ -1,11 +1,11 @@
-title: Brume
-author: Aigars Dzerviniks
-description: It's simple. It's easy to use. It's a Jekyll theme.
+title: Pil's Blog
+author: Pil Kwon
+description: Pil's Blog based on Jekyll theme.
 
 highlighter: null
 permalink: /:title
 
-url:
+url: https://pil0706.github.io/
 baseurl:
 
 # Custom options:
