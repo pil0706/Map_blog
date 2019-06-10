@@ -13,7 +13,7 @@ Cartographer by profession
 
 and one of a few **Cartographers** in S. Korea
 
-Previous Korean Blog : https://snugis.tistory.com/
+Previous Korean Blog : 서울대에서 GIS 하기 (https://snugis.tistory.com/)
 
 --------------
 
@@ -27,4 +27,4 @@ Previous Korean Blog : https://snugis.tistory.com/
 
 ​그리고 한국에 얼마 없는 **Cartographer** 중 한명
 
-과거 한국어 블로그 : https://snugis.tistory.com/
+과거 한국어 블로그 : 서울대에서 GIS 하기 (https://snugis.tistory.com/)
