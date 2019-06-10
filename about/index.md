@@ -13,7 +13,9 @@ Cartographer by profession
 
 and one of a few **Cartographers** in S. Korea
 
-======
+Previous Korean Blog : https://snugis.tistory.com/
+
+--------------
 
 지도쟁이  
 --
@@ -24,3 +26,5 @@ and one of a few **Cartographers** in S. Korea
 직업에 의한 지도 제작자  
 
 ​그리고 한국에 얼마 없는 **Cartographer** 중 한명
+
+과거 한국어 블로그 : https://snugis.tistory.com/
