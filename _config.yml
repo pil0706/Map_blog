@@ -1,11 +1,11 @@
-title: Pil's Blog
+title: Pil Kwon
 author: Pil Kwon
-description: Pil's Blog based on Jekyll theme.
+description: Pil's Map Blog based on Jekyll brume theme.
 
 highlighter: null
 permalink: /:title
 
-url: https://pil0706.github.io/
+url: https://pil0706.github.io
 baseurl:
 
 # Custom options:
