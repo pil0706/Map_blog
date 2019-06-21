@@ -23,7 +23,7 @@ I have to say I am not condescending asian cartographers, for in the past wester
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
-| right-aligned |![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/64625883_10156915209464892_2026769743855222784_n.jpg?_nc_cat=100&_nc_ht=scontent.ficn1-1.fna&oh=1532321ac030280251a6c8b32d5e24fa&oe=5D809976)|  ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
+| ![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/64625883_10156915209464892_2026769743855222784_n.jpg?_nc_cat=100&_nc_ht=scontent.ficn1-1.fna&oh=1532321ac030280251a6c8b32d5e24fa&oe=5D809976)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
 
 
 Again, as I am a 'Asian' cartographer, who were educated in the US, better readability and more information comes first.
