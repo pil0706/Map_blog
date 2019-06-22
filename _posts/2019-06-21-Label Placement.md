@@ -3,19 +3,37 @@ layout: post
 title: Asian Way of Label Placement / 우리식의 레이블 표현
 ---
 
-As I am a cartographer (at least, that how I call my self), POI and its label (fonts) are more important than basemap.
+As I am a cartographer (at least, that how I call my self), I think POI and its label (fonts) are more important than basemap.
 
-Let's say the basemap looks legit. Yet, the label and poi markers(icons) are bad, then the MAP does not look alright. No matter how much time you spent to make the basemap, the awful label (fonts) will contaminate the overall map design.
-(I used the word 'contaminate', because it really does)
 
-Therefore, POI and its assembled parts (font, color, icon, marker, and so forth) are important. I, however, am color blind and not trained as a typographer, making maps with good readability is very challenging.
+Let's say the basemap looks legit.
+Yet, the label and poi markers(icons) are bad, then the MAP does not look alright.
+No matter how much time you spent to make the basemap, the awful label (fonts) will contaminate the overall map design (I used the word 'contaminate', because it really does).
 
-What I did was going to a libray and read books about typography (or font in my term) and chromatics (or coloring in my term). But this is not enough to make myself to be a unique cartographer.
 
-What I am trying to do is researching the  'Asian' way of geography (풍수지리), also known as Feng Shui (in chinese) and I do not know in English. The chinese words came from Papago Translate (Google Translate like in Korea). But, I am not focusing on location-allocation. But more into 'how to implement Asian way of thoughts in making maps', though cartography itself is originated from the Western side of the world.
+Therefore, cartographers should spend a lot of time into POI and its assembled parts (font, color, icon, marker, and so forth). I, however, am color blind and not trained as a typographer, making maps with good readability is somewhat challenging.
 
-One of my favorite countries, Japan, still a lot of people are reading books in vertically right to left and that is still in common.
+
+So, What I did was going to a libray and read books about typography (or font in my term) and chromatics (or coloring in my term).
+
+
+But this is not enough to make myself to be a unique cartographer.
+I thought about what makes me different among all cartographers world wide.
+
+
+When I was in college in the US, (I guess Asians are no longer unique these days, but they were in Minnesota) I, sometimes, was focused in my department. So, I guess I better use the 'Asian' card in cartographers' world.
+
+
+What I am trying to do is researching the  'Asian' way of geography (풍수지리), also known as Feng Shui (in chinese) and I do not know in English. Mostly, the Asian way of geography is focused on location-allcation, such as 'Where is the best location for my Ancestors graveyard', 'Where is the best location for a house', etc.
+
+
+But, I am focusing more into 'how to implement Asian way of thoughts in making maps'.
+
+
+One of my favorite countries, Japan, still a lot of people are reading books in vertically right to 
+left and that is still in common.
 I thought about how I am implement that way of label placement for the Japanese and for those who admire Japanes culture.
+
 
 Because cartographers duties are not only making maps for the generals, but for the locals.
 Glocalization is probably the most required conditino for cartographers, I believe.
@@ -26,9 +44,12 @@ Anyway, this is my philosophy about making maps.
 Again, as I am a 'Asian' cartographer, who were educated in the US, better readability and more information comes first.
 But, I am also considering how I am going to mingle with Asian culture with westernized cartography method, along with GIS knoweldege.
 
+
 Well, it seems like Mapbox did that for me. Today (about 14 hours ago), Mapbox did the exprement with vertical label placement in Tokyo, Japan.
 
+
 ![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/65114048_10156915219444892_74845508849369088_n.jpg?_nc_cat=111&_nc_ht=scontent.ficn1-1.fna&oh=7d97d38f626a3e9dcf0a16256aeac6e4&oe=5D916786)
+
 
 When this API comes for public, I will monkey around and post it.
 
@@ -48,7 +69,7 @@ Anyway, thanks Mapbox for a new toy.
 
 
 
---- Korean Ver.
+--- 한국어 버전
 
 지도 제작자로써 (적어도, 저는 저를 그렇게 부르고 있습니다.), POI와 레이블 (폰트)는 지도보다 더 중요하다고 보고 있습니다.
 
