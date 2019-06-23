@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Pil
 ---
 
 Map Lover  
@@ -13,7 +13,7 @@ Cartographer by profession
 
 and one of a few **Cartographers** in S. Korea
 
-Previous Korean Blog : 서울대에서 GIS 하기 (https://snugis.tistory.com/)
+Previous Korean Blog : [Do GIS at Seoul Nat'l Univ.](https://snugis.tistory.com/)
 
 --------------
 
@@ -25,6 +25,6 @@ Previous Korean Blog : 서울대에서 GIS 하기 (https://snugis.tistory.com/)
 열정에 의한 지도 디자이너 및 지도 제작자  
 직업에 의한 지도 제작자  
 
-​그리고 한국에 얼마 없는 **Cartographer** 중 한명
+그리고 한국에 얼마 없는 **Cartographer** 중 한명
 
-과거 한국어 블로그 : 서울대에서 GIS 하기 (https://snugis.tistory.com/)
+과거 한국어 블로그 : [서울대에서 GIS 하기](https://snugis.tistory.com/)
