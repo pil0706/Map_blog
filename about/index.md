@@ -2,9 +2,11 @@
 layout: page
 title: About Me
 ---
+======
+
 
 Map Lover  
---
+------
 Geographer by expertise  
 Spatial Thinker and GIS Specialist by degrees  
 GIS Programmer by interest  
@@ -18,7 +20,7 @@ Previous Korean Blog : [Do GIS at Seoul Nat'l Univ.](https://snugis.tistory.com/
 --------------
 
 지도쟁이  
---
+------
 전문지식을 통한 지리학자  
 학위를 통한 공간정보 전문가 및 공간 사상가  
 취미를 통한 공간정보 프로그래머  
