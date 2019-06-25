@@ -57,7 +57,7 @@ When this API comes for public, I will monkey around and post it.
 
 Additionally, I am sharing the difference of making maps of the East and the West 
 I personally think Asian maps had very BAD readability (or maybe that is because I do not know how to read Chinese character, Kanji).
-I have to say I am not condescending asian cartographers, for in the past western maps also did not have any concepts of projections and others. But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfact, yet web-mercator projection is my favorite) and in the end europeans conquered the world until the world war II.
+I have to say I am not condescending asian cartographers, for in the past western maps also did not have any concepts of projections and others. But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect, yet web-mercator projection is my favorite) and in the end europeans conquered the world until the world war II.
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
@@ -67,6 +67,15 @@ I have to say I am not condescending asian cartographers, for in the past wester
 Anyway, thanks Mapbox for a new toy.
 
 
+--
+June 25th,
+I was playing with Mapbox studio and found out, as of right now, Mapbox does support vertical placement label.
+It is a little trick that you just change Max Width to 1
+
+Here, I attached video of how I did.
+Korean doesn't seem to be working with this trick but Chinese/Japanese are working well
+
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
 
 
 --- 한국어 버전
@@ -109,3 +118,12 @@ API가 공개되면 실험 을 좀 해본뒤에 결과물을 공유하도록 하
 | ![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/64625883_10156915209464892_2026769743855222784_n.jpg?_nc_cat=100&_nc_ht=scontent.ficn1-1.fna&oh=1532321ac030280251a6c8b32d5e24fa&oe=5D809976)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
 
 아무튼, 새로운 장난감을 선사해주신 Mapbox에게 감사드립니다.
+
+--
+6월 25일,
+오늘 Mapbox studio를 갖고 놀아봤습니다. 우연찮게도 세로 쓰기를 지원하더군요.
+Max Width 를 1로 줄이는 약간의 꼼수를 부려보았습니다.
+제가 어떻게 했는지 비디오를 첨부합니다.
+한국어는 이 꼼수로는 적용되지 않아 보입니다만, 일본어와 중국어는 잘 적용되어 보입니다.
+
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
