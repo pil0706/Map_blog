@@ -74,7 +74,7 @@ It is a little trick that you just change Max Width to 1
 
 Here, I attached video of how I did.
 Korean doesn't seem to be working with this trick but Chinese/Japanese are working well
-![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
+![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif?raw=true)
 
 
 
@@ -126,4 +126,4 @@ API가 공개되면 실험 을 좀 해본뒤에 결과물을 공유하도록 하
 Max Width 를 1로 줄이는 약간의 꼼수를 부려보았습니다.
 제가 어떻게 했는지 비디오를 첨부합니다.
 한국어는 이 꼼수로는 적용되지 않아 보입니다만, 일본어와 중국어는 잘 적용되어 보입니다.
-![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
+![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif?raw=true)
