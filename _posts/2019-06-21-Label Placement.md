@@ -67,18 +67,19 @@ I have to say I am not condescending asian cartographers, for in the past wester
 Anyway, thanks Mapbox for a new toy.
 
 
---
+---
 June 25th,
 I was playing with Mapbox studio and found out, as of right now, Mapbox does support vertical placement label.
 It is a little trick that you just change Max Width to 1
 
 Here, I attached video of how I did.
 Korean doesn't seem to be working with this trick but Chinese/Japanese are working well
+![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
 
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
 
 
---- 한국어 버전
+***
+한국어 버전
 
 지도 제작자로써 (적어도, 저는 저를 그렇게 부르고 있습니다.), POI와 레이블 (폰트)는 지도보다 더 중요하다고 보고 있습니다.
 
@@ -119,11 +120,10 @@ API가 공개되면 실험 을 좀 해본뒤에 결과물을 공유하도록 하
 
 아무튼, 새로운 장난감을 선사해주신 Mapbox에게 감사드립니다.
 
---
+---
 6월 25일,
 오늘 Mapbox studio를 갖고 놀아봤습니다. 우연찮게도 세로 쓰기를 지원하더군요.
 Max Width 를 1로 줄이는 약간의 꼼수를 부려보았습니다.
 제가 어떻게 했는지 비디오를 첨부합니다.
 한국어는 이 꼼수로는 적용되지 않아 보입니다만, 일본어와 중국어는 잘 적용되어 보입니다.
-
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
+![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif)
