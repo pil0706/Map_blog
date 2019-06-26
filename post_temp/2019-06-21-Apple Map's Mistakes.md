@@ -3,33 +3,39 @@ layout: post
 title: Japan, Probably the most difficult country to Service Providers' Mistakes / 지도 서비스 회사의 실수
 ---
 
-I am going to start with a screenshot of Apple and Google Maps
+I am going to start with screenshots of Apple and Google Maps with out labels and POIs
+<p align="center">
+ <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/aVsg_edit.png">
+</p>
+<p align="center"> (Apple : Left side Vs. Google : Right side) </p align="center">
 
-![AppleVsGoogle](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/aVsg_edit.png)
-
-To not to get distracted from POI and Labels, I got rid of them all.
-
+I have found out a few buildings on water bodies, as you may noticed from the screenshots
 These type of residence is usually in the southeast Asia. But, the maps are somewhere in Japan
-![](https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg)
 
-In fact, I have reported last year through Twitter and Apple asked me where that is ~~(I am not going to tell them until they offer me a position overthere)~~.
-![TwitterScreenshot](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png)
-
-
-
-Anyway, I, often, see their mistakes. What I do is take a snapshot of them (I am happy when I find them out for no reasons) and I always think that I should not make that mistake when I make my map.
+<p align="center">
+ <img src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
+</p>
 
 
-
-
-Again, Japan, a country I like, 
-Not just because I have nothing to do, I do wonder around Japan through Apple Maps and Google Maps very often.
+In fact, I reported last year through Twitter and Apple asked me where that was. And I lost their contacts.
+<p align="center">
+ <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png">
+</p>
 
 
 
-Buildings on water in Japan, that's very おかしい（weird).
-I was just curious why they did make same mistakes, because my map does not have that bizarre phenomenon.
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png)
+
+Japan as a country I like,
+I do wonder around Japan through Apple and Google Maps quite often and try to capture as much mistakes as I can.
+Those database help me not to make same mistakes (on that location) as they have made and it really does help my map looks better.
+
+
+Anyway,
+buildings on water, that's very おかしい（weird).
+I was just curious why they did make the same mistakes, because my map looks just fine.
+<p align="center">
+ <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png">
+</p>
 
 I came out with conclusions below, which causes this phenomenon.
 1. Data did not come from one source
@@ -184,6 +190,17 @@ Google | Apple
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_bug.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_bug.gif)
 
 
+
+
+
+
+
+
+
+
+
+
+Trivial errors, it was meaningless to post them here. But these phenomena were very dramatic and I decided to post and share my thoughts on this.
 
 
 
