@@ -4,10 +4,12 @@ title: Learn from others mistakes (1/2) / 다른사람의 실수로부터 배우
 ---
 
 I am going to start with screenshots of Apple and Google Maps with out labels and POIs
+
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/aVsg_edit.png">
 </p>
-<p align="center"> (Apple : Left side Vs. Google : Right side) </p align="center">
+
+<p align="center">(Apple : Left side Vs. Google : Right side)</p align="center">
 
 I have found out a few buildings on water bodies, as you may noticed from the screenshots
 These type of residence is usually in the southeast Asia. But, you are looking at somewhere in Japan
