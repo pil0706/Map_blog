@@ -1,128 +1,9 @@
 ---
 layout: post
-title: Japan, Probably the most difficult country to Service Providers' Mistakes / 지도 서비스 회사의 실수
+title: Learn from others mistakes (2/2) / 다른사람의 실수로부터 배우기 (2/2)
 ---
 
-I am going to start with screenshots of Apple and Google Maps with out labels and POIs
-<p align="center">
- <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/aVsg_edit.png">
-</p>
-<p align="center"> (Apple : Left side Vs. Google : Right side) </p align="center">
 
-I have found out a few buildings on water bodies, as you may noticed from the screenshots
-These type of residence is usually in the southeast Asia. But, the maps are somewhere in Japan
-
-<p align="center">
- <img widht="600" height="600" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
-</p>
-
-
-In fact, I reported last year through Twitter and Apple asked me where that was. And I lost their contacts.
-<p align="center">
- <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png">
-</p>
-
-
-
-
-Japan as a country I like,
-I do wonder around Japan through Apple and Google Maps quite often and try to capture as much mistakes as I can.
-Those database help me not to make same mistakes (on that location) as they have made and it really does help my map looks better.
-
-
-Anyway,
-buildings on water, that's very おかしい（weird).
-I was just curious why they did make the same mistakes, because my map looks just fine.
-<p align="center">
- <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png">
-</p>
-
-I came out with conclusions below, which causes this phenomenon (buildings on water).
-1. Data did not come from one source
-    - for instance, water bodies, buildings, road links all are from difference sources
-2. Like the Bermuda triangle, only that part of world has projection bugs
-	- when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)
-3. I may be wrong
-
-
-So, I tracked their data
-Google's data provider's attribution can be easily found and it used to be Zenrin but now it does not show anything.
-<p align="center">
- <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution.png">
-</p>
-In other countries, you still can find the data providers but not in lower level (or in small scale)
-<p align="center">
- <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif">
-</p>
-
-
-
-Apple announced that they use Increment P Corp. data for Japan and I assumed that possible open-sourced data providers are WAZE, OSM.
-
-
-
-But, Google probably did not make water bodies or their data from scratch.
-Let me track them down.
-
-OSM and Natural Earth are probably the easiest open-sourced spatial data provider so I started to check their data first.
- 1. Natural Earth
- 2. Open Street Map (planet.osm.pbf)
- 3. Openstreetmap Data (https://osmdata.openstreetmap.de)
-
-1. Natural Earth provides as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
-
-<p align="center">
- <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tokyo_bay.png">
-</p>
-Okay, it is too obvious.
-
-2. Let's go with Open Street Map's water area.
-
-This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
-for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#values
-
-    (you could use imposm3 and postgis but this isn't my work related so I use the simplest way to do)
-
-I downloaded world osm.pbf file and extracted water boundaries only.
-
-	You can try with the planet site but it will take forever to download
-	(for 24 hours, with my house network -the cheapest and lowest network speed-
-		and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
-	I used geofabrik instead, where you can specify your target country/region.
-	
-	After I did extract and convert the data,
-	I could just show openstreetmap because it is basically same as planet.osm.pbf
-	(There always are easiest and fastest way to achieve your goal.)
-
-These are the results of the bizarre area.
-	- No OSM Building provided in OSM.PBF
-	- Google and Apple seemed to have the river in polygon but OSM provides only line
-
-Here's the data I extracted from OSM.PBF and Openstreetmap 
-<p align="center">
- <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/osm.gif">
-</p>
-
-
-3. So now, I do not have much expectation on Openstreetmap Data (https://osmdata.openstreetmap.de)
-
-
-The coastline detail is much better than OpenStreetMap or Natural Earth though inland waterbodies didn't exist.
-
-
-
-OpenMaptiles' Water Boundary's diagram is illustrated below
-https://github.com/openmaptiles/openmaptiles/raw/master/layers/water/etl_diagram.png?raw=true
-
-
-
-
-
-This was my guess that the water polygons (ocean layer) or land polygons is not compatible with buildings in Japan
-
-
-
-http://www.geonames.org
 
 
 
@@ -136,20 +17,7 @@ Justine Obeirne
 
 Apple Maps Mistakes (POI/ICON/Buildings on Water/음차/)
 
--Apple Maps Water Bodies?
- - Natural Earth
- - OSM
- - OpenMapTiles (https://github.com/openmaptiles)
- - Openstreetmap Data (https://osmdata.openstreetmap.de)
 
-
-OpenMaptiles' Water Boundary's diagram is illustrated below
-https://github.com/openmaptiles/openmaptiles/raw/master/layers/water/etl_diagram.png?raw=true
-
-
-osm water bodies using osmosis and osm taginfo (https://taginfo.openstreetmap.org)
-
-natural earth from web.. Too simplified
 
 
 
