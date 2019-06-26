@@ -54,43 +54,49 @@ In other countries, you still can find the data providers but not in lower level
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif">
 </p>
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif)
+
 
 
 Apple announced that they use Increment P Corp. data for Japan and I assumed that possible open-sourced data providers are WAZE, OSM.
+
 
 
 But, Google probably did not make water bodies or their data from scratch.
 Let me track them down.
 
 OSM and Natural Earth are probably the easiest open-sourced spatial data provider so I started to check their data first.
- - Natural Earth
- - Open Street Map (planet.osm.pbf)
- - Openstreetmap Data (https://osmdata.openstreetmap.de)
+ 1. Natural Earth
+ 2. Open Street Map (planet.osm.pbf)
+ 3. Openstreetmap Data (https://osmdata.openstreetmap.de)
 
-Natural Earth provides as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tokyo_bay.png)
+1. Natural Earth provides as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
+
+<p align="center">
+ <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tokyo_bay.png">
+</p>
 Okay, it is too obvious.
 
-Let's go with Open Street Map's water area.
+2. Let's go with Open Street Map's water area.
+
 This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
 for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#values
+
 (you could use imposm3 and postgis but this isn't my work related so I use the simplest way to do)
 
 I downloaded world osm.pbf file and extracted water boundaries only.
-You can try with the planet site but it will take forever to download (for 24 hours, with my house network (the cheapest and lowest network speed) and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data). I used geofabrik instead, where you can specify your target country/region.
+	You can try with the planet site but it will take forever to download (for 24 hours, with my house network (the cheapest and lowest network speed) and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data). I used geofabrik instead, where you can specify your target country/region.
 
-
-
-
-After I did extract and convert the data, I could just show you openstreetmap because it is basically same as the planet.osm.pbf and I just noticed that QGIS reads .osm.pbf (There always are easiest and fastest way to achieve your goal.)
+	After I did extract and convert the data, I could just show you openstreetmap because it is basically same as the planet.osm.pbf and I just noticed that QGIS reads .osm.pbf (There always are easiest and fastest way to achieve your goal.)
 
 
 This is the result of OSM Buildings in that bizarre area.
-- No OSM Building provided in OSM.PBF
-- Google and Apple seemed to have the river in polygon but OSM provides only line
+	a. No OSM Building provided in OSM.PBF
+	b. Google and Apple seemed to have the river in polygon but OSM provides only line
 
-
+Here's the data I extracted from OSM.PBF and Openstreetmap 
+<p align="center">
+ <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/osm.gif">
+</p>
 
 
 
