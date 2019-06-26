@@ -13,13 +13,13 @@ I have found out a few buildings on water bodies, as you may noticed from the sc
 These type of residence is usually in the southeast Asia. But, the maps are somewhere in Japan
 
 <p align="center">
- <img src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
+ <img widht="600" height="600" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
 </p>
 
 
 In fact, I reported last year through Twitter and Apple asked me where that was. And I lost their contacts.
 <p align="center">
- <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png">
+ <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png">
 </p>
 
 
@@ -34,21 +34,26 @@ Anyway,
 buildings on water, that's very おかしい（weird).
 I was just curious why they did make the same mistakes, because my map looks just fine.
 <p align="center">
- <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png">
+ <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png">
 </p>
 
-I came out with conclusions below, which causes this phenomenon.
+I came out with conclusions below, which causes this phenomenon (buildings on water).
 1. Data did not come from one source
     - for instance, water bodies, buildings, road links all are from difference sources
 2. Like the Bermuda triangle, only that part of world has projection bugs
 	- when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)
 3. I may be wrong
 
-So, I tracked their data down as much as I could.
 
+So, I tracked their data
 Google's data provider's attribution can be easily found and it used to be Zenrin but now it does not show anything.
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution.png)
+<p align="center">
+ <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution.png">
+</p>
 In other countries, you still can find the data providers but not in lower level (or in small scale)
+<p align="center">
+ <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif">
+</p>
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif)
 
 
