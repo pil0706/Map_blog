@@ -85,19 +85,29 @@ for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#
 
 I downloaded world osm.pbf file and extracted water boundaries only.
 
-	You can try with the planet site but it will take forever to download (for 24 hours, with my house network (the cheapest and lowest network speed) and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
+	You can try with the planet site but it will take forever to download
+	(for 24 hours, with my house network -the cheapest and lowest network speed-
+		and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
 	I used geofabrik instead, where you can specify your target country/region.
 	
-	After I did extract and convert the data, I could just show you openstreetmap because it is basically same as the planet.osm.pbf and I just noticed that QGIS reads .osm.pbf (There always are easiest and fastest way to achieve your goal.)
+	After I did extract and convert the data,
+	I could just show openstreetmap because it is basically same as planet.osm.pbf
+	(There always are easiest and fastest way to achieve your goal.)
 
 These are the results of the bizarre area.
-	a. No OSM Building provided in OSM.PBF
-	b. Google and Apple seemed to have the river in polygon but OSM provides only line
+	- No OSM Building provided in OSM.PBF
+	- Google and Apple seemed to have the river in polygon but OSM provides only line
 
 Here's the data I extracted from OSM.PBF and Openstreetmap 
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/osm.gif">
 </p>
+
+
+3. So now, I do not have much expectation on Openstreetmap Data (https://osmdata.openstreetmap.de)
+
+
+The coastline detail is much better than OpenStreetMap or Natural Earth though inland waterbodies didn't exist.
 
 
 
