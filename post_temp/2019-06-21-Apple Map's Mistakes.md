@@ -81,15 +81,16 @@ Okay, it is too obvious.
 This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
 for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#values
 
-(you could use imposm3 and postgis but this isn't my work related so I use the simplest way to do)
+    (you could use imposm3 and postgis but this isn't my work related so I use the simplest way to do)
 
 I downloaded world osm.pbf file and extracted water boundaries only.
-	You can try with the planet site but it will take forever to download (for 24 hours, with my house network (the cheapest and lowest network speed) and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data). I used geofabrik instead, where you can specify your target country/region.
 
+	You can try with the planet site but it will take forever to download (for 24 hours, with my house network (the cheapest and lowest network speed) and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
+	I used geofabrik instead, where you can specify your target country/region.
+	
 	After I did extract and convert the data, I could just show you openstreetmap because it is basically same as the planet.osm.pbf and I just noticed that QGIS reads .osm.pbf (There always are easiest and fastest way to achieve your goal.)
 
-
-This is the result of OSM Buildings in that bizarre area.
+These are the results of the bizarre area.
 	a. No OSM Building provided in OSM.PBF
 	b. Google and Apple seemed to have the river in polygon but OSM provides only line
 
