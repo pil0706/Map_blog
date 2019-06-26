@@ -145,7 +145,7 @@ Label과 POI를 제거한 Apple (왼)과 Google (오)지도의 스크린샷으�
 이러한 건물 타입은 주로 동남아시아에서 볼 수 있는 것 입니다. 하지만, 여러분들은 일본의 어느 지역을 보고 계십니다.
 
 <p align="center">
- <img widht="600" height="600" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg?raw=true">
+ <img widht="300" height="300" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg?raw=true">
 </p>
 
 
