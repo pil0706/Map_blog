@@ -85,15 +85,15 @@ Let's go with Open Street Map's water area.
 This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
 for more detail, you may go here [osm taginfo])https://taginfo.openstreetmap.org/keys/natural#values)
 
-``` (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
-```
+> (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
+
 
 I downloaded world osm.pbf file and extracted water boundaries only.
 
-``` You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
-I used geofabrik instead, where you can specify your target country/region.
-After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
-```
+> You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).<br>
+> I used geofabrik instead, where you can specify your target country/region.<br>
+> After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+
 
 These are the data results of the bizarre area.
 	- No OSM Building provided in OSM.PBF
