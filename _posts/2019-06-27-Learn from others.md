@@ -84,16 +84,13 @@ Let's go with Open Street Map's water area.
 This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
 for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#values
 
-  (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
+- (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
 
 I downloaded world osm.pbf file and extracted water boundaries only.
 
-  You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
-  I used geofabrik instead, where you can specify your target country/region.
-	
-  After I did extract and convert the data,
-  I could just show openstreetmap because it is basically same as planet.osm.pbf
-  (There always are easiest and fastest way to achieve your goal.)
+- You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
+- I used geofabrik instead, where you can specify your target country/region.
+- After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
 
 These are the data results of the bizarre area.
 	- No OSM Building provided in OSM.PBF
@@ -212,16 +209,13 @@ Open Street Map의 수계를 열어봅니다.
 이거는 약간 꼼수인데, osmosis와 OGR을 이용하여 수계를 추출합니다. OSM Taginfo 는 정말로 짜증나지만 다음과 같은 필터 조건을 사용했습니다 natural=water and natural=coastline.
 더 자세한 정보는 여기로 가십시요 https://taginfo.openstreetmap.org/keys/natural#values
 
-  (imposm3와 postgis를 사용할 수 있지만, 제 업무와 관련된 일이 아니기에 그냥 쉬운 방법으로 갑니다)
+- (imposm3와 postgis를 사용할 수 있지만, 제 업무와 관련된 일이 아니기에 그냥 쉬운 방법으로 갑니다)
 
 세계 osm.pbf 파일을 다운받고 수계만 추출했습니다.
 
-  다운받는데 오래 걸렸습니다. (24시간 동안, 가장 싸고 느린 저의 집의 네트워크와 제 iMac (i5 3.2GHz, 24GB 1600 MHz)으로 16% 밖에 못받고 있더군요).
-  그래서 geofabrik 을 대신 사용했습니다. 원하는 국가/지역을 선택할 수 있습니다.
-	
-  추출하고, 데이터를 변환했습니다.
-  그냥 openstreetmap을 보여줘도 될 거라는 생각을 했습니다. 왜냐하면 기본적으로 같기 때문입니다.
-  (항상 목표로 도달하기 위한 쉽고 빠른길이 있더군요)
+- 다운받는데 오래 걸렸습니다. (24시간 동안, 가장 싸고 느린 저의 집의 네트워크와 제 iMac (i5 3.2GHz, 24GB 1600 MHz)으로 16% 밖에 못받고 있더군요). 그래서 geofabrik 을 대신 사용했습니다. 원하는 국가/지역을 선택할 수 있습니다.
+- 추출하고, 데이터를 변환했습니다.
+- 그냥 openstreetmap을 보여줘도 될 거라는 생각을 했습니다. 왜냐하면 기본적으로 같기 때문입니다. (항상 목표로 도달하기 위한 쉽고 빠른길이 있더군요)
 
 이상한 지역에 대한 데이터 결과 입니다.
 	- 빌딩 없음
