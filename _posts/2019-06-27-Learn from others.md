@@ -11,14 +11,16 @@ I am going to start with screenshots of Apple (L) and Google (R) Maps with out l
 
 
 I have found out a few buildings on water bodies, as you may noticed from the screenshots. <br>
-These type of residence is usually in the southeast Asia. But, you are looking at somewhere in Japan
+These type of residence is usually in the southeast Asia.<br>
+But, you are looking at somewhere in Japan
 
 <p align="center">
  <img widht="600" height="600" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
 </p>
 
 
-In fact, I reported last year through Twitter and Apple asked me where that was. And I lost their contacts.
+In fact, I reported last year through Twitter and Apple asked me where that was.<br>
+And I lost their contacts.
 <p align="center">
  <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png?raw=true">
 </p>
@@ -39,10 +41,15 @@ I was just curious why they did make the same mistakes, because my map looks jus
 </p>
 
 I came out with conclusions below, which causes this phenomenon (buildings on water).<br>
+
 **A**. Data did not come from one source<br>
-> for instance, water bodies, buildings, road links all are from difference sources<br>
+
+> for instance, water bodies, buildings, road links all are from difference sources
+
 **B**. Like the Bermuda triangle, only that part of world has projection bugs<br>
-> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)<br>
+
+> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)
+
 **C**. I may be wrong
 
 
@@ -68,7 +75,7 @@ Let me track them down.
 OSM and Natural Earth are probably the easiest open-sourced spatial data provider so I started to check their data first.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Natural Earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Open Street Map (planet.osm.pbf)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data [Data Web](https://osmdata.openstreetmap.de)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)
 
 
 A.1. **Natural Earth**<br>
@@ -82,8 +89,9 @@ Okay, it is too obvious.
 A.2. **Open Street Map**<br>
 Let's go with Open Street Map's water area.
 
-This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.<br>
-for more detail, you may go here [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
+This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'.<br>
+OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.<br>
+for more detail, you may go here -> [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
 
 > (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
 
@@ -95,9 +103,9 @@ I downloaded world osm.pbf file and extracted water boundaries only.
 > After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
 
 
-These are the data results of the bizarre area.
-	- No OSM Building provided in OSM.PBF
-	- Google and Apple seemed to have the river in polygon but OSM provides only line
+These are the data results of the bizarre area.<br>
+- No OSM Building provided in OSM.PBF
+- Google and Apple seemed to have the river in polygon but OSM provides only line
 
 Here's the data I extracted from OSM.PBF and Openstreetmap 
 <p align="center">
@@ -105,7 +113,7 @@ Here's the data I extracted from OSM.PBF and Openstreetmap
 </p>
 
 
-A.3. **Openstreetmap Data [Data Web](https://osmdata.openstreetmap.de)**<br>
+A.3. **Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)**<br>
 I guess I don't have much expectation on their data..
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/opendata.png?raw=true">
@@ -119,8 +127,8 @@ B. projection?<br>
 But, would it be possible that both services have same projection bugs in same area?
 
 C. I am wrong?<br>
-Let's say I don't know.
-I was not able to get building polygons from both Google and Apple
+Let's say I don't know.<br>
+I was not able to get building polygons from both Google and Apple. <br>
 But wat I can tell is the water polygons or land polygons are not compatible with buildings in Japan. This applies to both services coincidentaly.
 
 
@@ -140,7 +148,8 @@ Label과 POI를 제거한 Apple (왼)과 Google (오)지도의 스크린샷으�
 </p>
 
 스크린샷에서 보시다시피, 몇개의 건물들이 물위에 있는것을 발견하였습니다.<br>
-이러한 건물 타입은 주로 동남아시아에서 볼 수 있는 것 입니다. 하지만, 여러분들은 일본의 어느 지역을 보고 계십니다.
+이러한 건물 타입은 주로 동남아시아에서 볼 수 있는 것 입니다.<br>
+하지만, 여러분들은 일본의 어느 지역을 보고 계십니다.
 
 <p align="center">
  <img widht="300" height="300" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg?raw=true">
@@ -168,11 +177,16 @@ Apple과 Google 지도로 자주 돌아다닙니다 그리고 얘네들이 만�
 </p>
 
 이와 같은 현상에 저는 아래와 같은 결론을 내렸습니다.<br>
+
 **A**. 데이터의 출처가 여러곳이다<br>
-> 예를들면, 수계, 건물, 도로 등 다 여기저기서 온것입니다.<br>
+
+> 예를들면, 수계, 건물, 도로 등 다 여기저기서 온것입니다.
+
 **B**. 버뮤다 삼각지대 같이, 이 지역에서만 생기는 투영법 버그<br>
-> 벡터 타일로 서비스를 할때 유독 이 지역에서만 생기는 '알수없는' 이슈? (아마도 제가 너무 많이 간 것 같습니다. 얘네들이 이런 실수를 했을거라고 믿고 싶지 않습니다.)<br>
-**C**. 내가 틀림
+
+> 벡터 타일로 서비스를 할때 유독 이 지역에서만 생기는 '알수없는' 이슈? (아마도 제가 너무 많이 간 것 같습니다. 얘네들이 이런 실수를 했을거라고 믿고 싶지 않습니다.)
+
+**C**. 내가 틀림<br>
 
 
 그래서, 얘네들의 데이터를 추적하기로 했습니다.<br>
@@ -197,7 +211,7 @@ Google은 아마도 처음부터 수계와 다른 데이터를 만들지 않았�
 OSM 과 Natural Earth는 아마 가장 쉬운 공개된 데이터이지 않을까 합니다. 그래서 얘네들의 데이터를 먼저 확인해보았습니다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Natural Earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Open Street Map (planet.osm.pbf)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data [Data Web](https://osmdata.openstreetmap.de)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)
 
 A.1. **Natural Earth**<br>
 얘네가 제공하는 데이터의 정확도는 1 : 1000만, 다운받을 가치도 없겟지만 해봅니다.
@@ -209,8 +223,9 @@ A.1. **Natural Earth**<br>
 A.2. **Open Street Map**<br>
 Open Street Map의 수계를 열어봅니다.
 
-이거는 약간 꼼수인데, osmosis와 OGR을 이용하여 수계를 추출합니다. OSM Taginfo 는 정말로 짜증나지만 다음과 같은 필터 조건을 사용했습니다 natural=water and natural=coastline.<br>
-더 자세한 정보는 여기로 가십시요 [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
+이거는 약간 꼼수인데, osmosis와 OGR을 이용하여 수계를 추출합니다. <br>
+OSM Taginfo 는 정말로 짜증나지만 다음과 같은 필터 조건을 사용했습니다 natural=water and natural=coastline.<br>
+더 자세한 정보는 여기로 가십시요 -> [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
 
 > (imposm3와 postgis를 사용할 수 있지만, 제 업무와 관련된 일이 아니기에 그냥 쉬운 방법으로 갑니다)
 
@@ -219,9 +234,9 @@ Open Street Map의 수계를 열어봅니다.
 > 다운받는데 오래 걸렸습니다. (24시간 동안, 저의 집의 네트워크와 제 iMac (i5 3.2GHz, 24GB 1600 MHz)으로 16% 밖에 못받고 있더군요).그래서 geofabrik 을 대신 사용했습니다. 원하는 국가/지역을 선택할 수 있습니다. 추출하고, 데이터를 변환했습니다.<br>
 > 그냥 openstreetmap을 보여줘도 될 거라는 생각을 했습니다. 왜냐하면 기본적으로 같기 때문입니다. (항상 목표로 도달하기 위한 쉽고 빠른길이 있더군요)
 
-이상한 지역에 대한 데이터 결과 입니다.
-	- 빌딩 없음
-	- Google 과 Apple 의 강은 polygon 이나 OSM 은 line
+이상한 지역에 대한 데이터 결과 입니다.<br>
+- 빌딩 없음
+- Google 과 Apple 의 강은 polygon 이나 OSM 은 line
 
 여기, OSM에서 추출한 데이터와 Openstreetmap을 보여드립니다.
 <p align="center">
@@ -229,7 +244,7 @@ Open Street Map의 수계를 열어봅니다.
 </p>
 
 
-A.3. **Openstreetmap Data [Data Web](https://osmdata.openstreetmap.de)**<br>
+A.3. **Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)**<br>
 이 데이터에 대한 기대가 없습니다..
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/opendata.png?raw=true">
