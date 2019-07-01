@@ -39,11 +39,11 @@ I was just curious why they did make the same mistakes, because my map looks jus
 </p>
 
 I came out with conclusions below, which causes this phenomenon (buildings on water).
-1. Data did not come from one source
+A. Data did not come from one source
     - for instance, water bodies, buildings, road links all are from difference sources
-2. Like the Bermuda triangle, only that part of world has projection bugs
+B. Like the Bermuda triangle, only that part of world has projection bugs
 	- when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)
-3. I may be wrong
+C. I may be wrong
 
 
 So, I tracked their data
@@ -66,11 +66,12 @@ Google probably did not make water bodies or their data from scratch.
 Let me track them down.
 
 OSM and Natural Earth are probably the easiest open-sourced spatial data provider so I started to check their data first.
- - Natural Earth
- - Open Street Map (planet.osm.pbf)
- - Openstreetmap Data (https://osmdata.openstreetmap.de)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Natural Earth
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Open Street Map (planet.osm.pbf)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data (https://osmdata.openstreetmap.de)
 
-- Natural Earth
+
+A.1. **Natural Earth**
 they provide as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
 
 <p align="center">
@@ -78,19 +79,21 @@ they provide as accurate as 1 to 10 Million scale, I guess I do not have to down
 </p>
 Okay, it is too obvious.
 
-- Open Street Map
+A.2. **Open Street Map**
 Let's go with Open Street Map's water area.
 
 This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'. OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.
 for more detail, you may go here https://taginfo.openstreetmap.org/keys/natural#values
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
+~~~~ (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
+~~~~
 
 I downloaded world osm.pbf file and extracted water boundaries only.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I used geofabrik instead, where you can specify your target country/region.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+~~~~ You can try with the planet site but it will take forever to download (for 24 hours, with my house network -the cheapest and slowest network speed and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
+I used geofabrik instead, where you can specify your target country/region.
+After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+~~~~
 
 These are the data results of the bizarre area.
 	- No OSM Building provided in OSM.PBF
@@ -102,7 +105,7 @@ Here's the data I extracted from OSM.PBF and Openstreetmap
 </p>
 
 
-- Openstreetmap Data (https://osmdata.openstreetmap.de)
+A.3. **Openstreetmap Data (https://osmdata.openstreetmap.de)**
 I guess I don't have much expectation on their data..
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/opendata.png?raw=true">
@@ -112,10 +115,10 @@ The coastline detail is much better than OpenStreetMap or Natural Earth though i
 
 So... what now, what's left?
 
-2. projection?
+B. projection?
 But, would it be possible that both services have same projection bugs in same area?
 
-3. I am wrong?
+C. I am wrong?
 Let's say I don't know.
 I was not able to get building polygons from both Google and Apple
 But wat I can tell is the water polygons or land polygons are not compatible with buildings in Japan. This applies to both services coincidentaly.
