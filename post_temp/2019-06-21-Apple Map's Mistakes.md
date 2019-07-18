@@ -3,7 +3,12 @@ layout: post
 title: Learn from others mistakes (2/2) / 다른사람의 실수로부터 배우기 (2/2)
 ---
 
+From the previous story, I am going to continue what I have found from other map service providers.
 
+
+
+
+여기부터 내용 수정좀 하자
 
 
 
