@@ -1,37 +1,43 @@
 ---
 layout: post
-title: Learn from others mistakes (2/2) / 다른사람의 실수로부터 배우기 (2/2)
+title: Learn from others mistakes - Apple Maps (2/2) / 다른사람의 실수로부터 배우기 - Apple Maps (2/2)
 ---
 
-From the previous story, I am going to continue what I have found from other map service providers.
+From the previous story, </br>
+I am going to continue to write errors which I have found from other map service providers. </br>
+Most likely Apple and Google.
+
+Before I start to write article, I have to make it clear that I am not attacking Apple Maps or employees there though you are going to see quite lots of their mistakes.
 
 
 
+Long story short, Apple is struggling to make maps.</br>
+That is the conclusion of this article. From Apple's mistakes I am trying not to make same mistakes they made. </br>
+So, for certain areas, my map is better than theirs. </br>
 
-여기부터 내용 수정좀 하자
+Again, don't get me wrong. I love Apple products and devices (Watch, AirPod, iPhone, iMac, Macbook <- yes, these are what I use everyday) </br>
+
+All these is based on my instinct/feeling/thoughts of their maps after analyzing their maps for 2 years.
 
 
-
-Apple has started their map servie in year 2012
-
-All their products are iOS or Mac OS based applications so optimization probably 
-They do not have service on Web
-
-Justine Obeirne 
 
 
 Apple Maps Mistakes (POI/ICON/Buildings on Water/음차/)
 
 
+- Let's start with pedestrian overpass.
+One day, I took a bus from Narita Airport to Downtown Tokyo. </br>
+I turned on maps and started to compare services. It's my habit. I do everyday.
 
 
 
-육교
-One day, I took a bus from Narita Airport to Downtown Tokyo. All of sudden, I turned on the map and 
-Google : ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif)
-Apple : ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif)
+Google | Apple | Real World
+-- | -- | --
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png)
 
-Real World : ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png)
+
+
+
 
 Data modellign wise, Apple is correct (or iPC) but because they did not choose to use real-width road shape, weird disconnection of the pedestrian overpass is eyesoar
 Google seemed to okay but it should go below the express highway
