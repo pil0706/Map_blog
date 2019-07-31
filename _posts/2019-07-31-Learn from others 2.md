@@ -163,6 +163,7 @@ Nevertheless, Google decided to do. Their decision process and drive are, I have
 - Appendix
 
 Same Bug Vs. Not Good Endcap?
+
 Google | Apple
 -- | --
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_bug.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_bug.gif?raw=true)
