@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn from others : Apple/Google (2/2) / 다른사람의 실수로부터 배우기 (2/2)
+title: Learn from Apple/Google / Apple/Google로 부터 배우기
 ---
 
 From the previous story, <br>
