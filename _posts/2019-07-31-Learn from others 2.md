@@ -4,8 +4,10 @@ title: Learn from Apple/Google / Apple/Google로 부터 배우기
 ---
 
 From the previous story, <br>
-I am going to continue to write errors which I have found from other map service providers. <br>
+I have been writing errors which I have found from other map service providers. <br>
 Most likely Apple and Google.
+
+
 
 Before I start to write article, I have to make it clear that I am not attacking employees in Apple and Google though you are going to see their mistakes.
 
@@ -53,7 +55,7 @@ Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
 
 Google | Apple | Real World
 -- | -- | --
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
 
 
 
@@ -83,7 +85,7 @@ Check out the expressway in Japan. <br>
 Google uses (at this time, they used Zenrin data) real-width road polygon so it showed toll booth and green areas on road.<br>
 On the other hand, Apple Maps is simple. (yes I know simple is the best)<br>
 
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tg_aVsg.gif)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tg_aVsg.gif?raw=true)
 
 
 As far as I know, Japan and Korea are two countries provide the data.<br>
@@ -106,7 +108,7 @@ Meguro Sky Garden is one of my landmark when I map Tokyo.
 
 Oneday, I have noticed that something has changed on that landmark <br>
 and a few days later it changed again.
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_google.gif)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_google.gif?raw=true)
 
 Yes, this was the day when Google has changed their data provider from Zenrin (Zenrin Web) to their own.<br> 
 You see the style is being changed and trying to illustrate the real world as accurate as possible?
@@ -122,19 +124,19 @@ You see the style is being changed and trying to illustrate the real world as ac
 
 The tunnel style improved a lot compared to the first version. <br>
 But, it does not look like a tunnel still I do not see the building. (I should expose myself more to Google to get used to their new style in Japan).
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now.png)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now.png?raw=true)
 
 
 Meguro Sky Garden is one big giant building at street level (and most of Tokyoite are walking or biking)<br>
 From the aerial view, futsal field and skygarden are the two most outstanding features there.
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now_streetlevel.png)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now_streetlevel.png?raw=true)
 
 
 But, the new style doesn't seem to have them.<br>
 > By the way, the cafe on the leftside is one of my favorite dessert/cafe in Nakameguro
 
 In fact, Apple's Meguro Sky Garden shows the 'greate circle' building
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_megro_building.png)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_megro_building.png?raw=true)
 
 
 
@@ -163,7 +165,7 @@ Nevertheless, Google decided to do. Their decision process and drive are, I have
 Same Bug Vs. Not Good Endcap?
 Google | Apple
 -- | --
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_bug.gif) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_bug.gif)
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_bug.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_bug.gif?raw=true)
 
 
 
