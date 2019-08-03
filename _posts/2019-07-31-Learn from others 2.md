@@ -119,41 +119,37 @@ This is something I want to know why.
 <br>
 **Let's move on to downtown Tokyo. Who illustrated better? Modelling real-world.**
 <br>
-Tokyo, as one of the most complex cities in the world, is very hard to spatialize the city. <br>
-Countless overpass, pedestrian deck and overpass, bridges, 'a tunnel but highway ramp but also highway exit' are something you will never find in other countries.<br>
-
-Meguro Sky Garden is one of my landmark when I map Tokyo.
-
+Tokyo, as one of the most complex cities in the world, is very hard to database-nized the city.
+<br>
+Countless overpass, pedestrian deck and overpass, bridges, __'a tunnel but highway ramp but also highway exit'__ are something you will never find in other countries.<br>
+<br>
+__Meguro Sky Garden__ is one of my landmark when I map Tokyo.
+<br>
 Oneday, I have noticed that something has changed on that landmark <br>
 and a few days later it changed again.
+<br>
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_google.gif?raw=true)
 
-Yes, this was the day when Google has changed their data provider from Zenrin (Zenrin Web) to their own.<br> 
-You see the style is being changed and trying to illustrate the real world as accurate as possible?
-
-
-
-
+Yes, this was the day when Google has changed their data provider from Zenrin to their own.<br> 
+Green areas and color of tunnel have added.<br>
+So, Google is trying to depict the real world as accurate as possible.
 
 > So, for those who are not familiar with Meguro Sky Garden,
 > It is a building/condominium/but inside of it is expressway/ramp/exit/IC and on top of it is football field and garden.
 
-
-
-The tunnel style improved a lot compared to the first version. <br>
-But, it does not look like a tunnel still I do not see the building. (I should expose myself more to Google to get used to their new style in Japan).
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now.png?raw=true)
-
-
 Meguro Sky Garden is one big giant building at street level (and most of Tokyoite are walking or biking)<br>
 From the aerial view, futsal field and skygarden are the two most outstanding features there.
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now_streetlevel.png?raw=true)
-
-
-But, the new style doesn't seem to have them.<br>
 > By the way, the cafe on the leftside is one of my favorite dessert/cafe in Nakameguro
 
-In fact, Apple's Meguro Sky Garden shows the 'greate circle' building
+
+The tunnel style improved a lot compared to the first version. <br>
+But, I still do not see the building.
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now.png?raw=true)
+But, the new style doesn't seem to have features from pedestrian level nor aerial view.<br>
+
+
+In fact, Apple's Meguro Sky Garden shows the 'greate circle' building (though there are not green areas)
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/apple_megro_building.png?raw=true)
 
 
@@ -167,7 +163,8 @@ In fact, Apple's Meguro Sky Garden shows the 'greate circle' building
 
 Google announced Spatial Data Independence of Japan. <br>
 I am sure their cartographers did know the side-effects of data independence <br>
-Nevertheless, Google decided to do. Their decision process and drive are, I have to say, darn good.
+Nevertheless, Google decided to do. <br>
+Their decision process and drive are, I have to say, darn good.
 
 
 
