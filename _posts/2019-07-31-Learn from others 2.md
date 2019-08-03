@@ -64,7 +64,7 @@ Google | Apple | Real World
 Data modelling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). Because the pedestrian overpass is under the expressway.<br>
 But, this is very eyesoar to me that Apple did not choose to use 'real-width road polygon', weird detachement or disconnection of disconnection of the pedestrian overpass is occured, once zoomed-in. <br>
 
-(real-width road polygon : buffered polygon from road centerline with its real width)
+> real-width road polygon : buffered polygon from road centerline with its real width
 
 Google seemed to okay but it should go below the expressway.<br>
 Both are wrong, or maybe both are right according to their own mapping policy or mapping philsophy.
