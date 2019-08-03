@@ -59,17 +59,22 @@ Their data and layering orders make me somewhat uncomfortable.
 **Let's start with pedestrian overpass.**
 <br>
 One day, I took a bus from Narita Airport to Downtown Tokyo. <br>
-I turned on maps and started to compare services. (It's my habit. I do everyday.) <br>
-
+I turned on maps as usual and started to compare services.<br>
+<br>
+<br>
+<br>
 The two major map service providers depicted the real world in totally differenct way. <br>
+<br>
 Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
-
-
-Google | Apple | Real World
--- | -- | --
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
-
-
+<br>
+<br>
+Google | Real World
+-- |  --
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
+<br>
+Apple | Real World
+ -- | --
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
 
 
 
