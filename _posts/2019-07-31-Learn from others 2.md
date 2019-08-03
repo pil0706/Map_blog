@@ -1,51 +1,63 @@
 ---
 layout: post
-title: Learn from Apple/Google / Apple/Google로 부터 배우기
+title: Learn from Apple/Google | Apple/Google로 부터 배우기
 ---
 
 From the previous story, <br>
 I have been writing errors which I have found from other map service providers. <br>
 Most likely Apple and Google.
-
-
-
-Before I start to write article, I have to make it clear that I am not attacking employees in Apple and Google though you are going to see their mistakes.
-
-
-
-Long story short, Apple still needs to improve their maps. (or maybe I am biased?)<br>
-I have learned a lot from others ~~(from their mistakes)~~ and I am trying not to make same mistakes they made. <br>
+<br>
+<br>
+<br>
+Before I start to write this article, <br>
+I am not blaming employees at Apple and Google though you are going to see their mistakes.
+<br>
+<br>
+<br>
+Long story short, Apple still needs to improve their maps. (so does Google..)<br>
+<br>
+And from their mistakes, I have learned how to make/layer/design maps more<br>
+At least,  I'm trying not to make same mistakes they made.<br>
 For certain areas, my map is better than theirs. <br>
-
-
-Again, don't get me wrong. I love Apple products and devices (Watch, AirPod, iPhone, iMac, Macbook <- yes, these are what I use everyday) <br>
-I love Google services.
-
-
-All these is based on my instinct/feeling/thoughts of their maps after analyzing their maps for 2 years.
-
-
-
-
-
-
-
-
-Balance and harmony. <br>
+<br>
+<br>
+<br>
+Again, don't get me wrong. I love Apple products and devices with Google services<br>
+<br>
+<br>
+<br>
+I database-nized all these just because I habe been making/designing/layering/analyzing maps for my work.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+**Balance and harmony.** <br>
+<br>
 I can't emphasize enough on the importance of them. <br>
-Well trained cartographers should check balance and harmony when they make maps. If their maps also contain the real world features as it is, no one is going to say bad thigns about it.
-
-
-
-I believe Apple and Google is very well balanced (except POIs. I have more things to say POIs but it will come to next article).<br>
-Most of things that makes me uncomfortable is the data (or bugs) or layering orders.
-
-
-
-
-
-- Let's start with pedestrian overpass.
-
+Well trained cartographers should consider **balance and harmony** when they make maps. <br>
+Especially, for map services, they become more important, for maps should satisfy all audiences.
+<br>
+<br>
+<br>
+I believe Apple Maps and Google Maps are well balanced.(except POIs. I have more things to say about POIs but it will come to next articles).<br>
+Yet, there are some eyesoars.<.br>
+Their data and layering orders make me somewhat uncomfortable.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+**Let's start with pedestrian overpass.**
+<br>
 One day, I took a bus from Narita Airport to Downtown Tokyo. <br>
 I turned on maps and started to compare services. (It's my habit. I do everyday.) <br>
 
