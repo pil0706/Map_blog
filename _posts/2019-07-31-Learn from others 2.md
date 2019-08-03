@@ -68,10 +68,13 @@ The two major map service providers depicted the real world in totally differenc
 Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
 <br>
 <br>
+
 Google | Real World
 -- |  --
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
+
 <br>
+
 Apple | Real World
  -- | --
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
