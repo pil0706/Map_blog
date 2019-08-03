@@ -83,6 +83,7 @@ What it means is that the overpass goes under the expressway, they chose not to 
 But, nice try but Apple created side-effects.<br>
 It only works when the data goes with 'real-width road polygon'.<br>
 > real-width road polygon : buffered polygon from road centerline with its real width
+
 Google's pedestrian overpass seemed to look fine but it should go below the expressway.<br>
 <br>
 Both services did not illustrated the real world as it is.<br>
@@ -141,6 +142,7 @@ So, Google is trying to depict the real world as accurate as possible.
 Meguro Sky Garden is one big giant building at street level (and most of Tokyoite are walking or biking)<br>
 From the aerial view, futsal field and skygarden are the two most outstanding features there.
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now_streetlevel.png?raw=true)
+
 > By the way, the cafe on the leftside is one of my favorite dessert/cafe in Nakameguro
 
 
