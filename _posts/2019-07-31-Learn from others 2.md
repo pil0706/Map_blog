@@ -62,32 +62,6 @@ I turned on maps as usual and started to compare services.<br>
 The two major map service providers depicted the real world in totally differenct way. <br>
 <br>
 Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
-<<<<<<< HEAD
-
-
-Google | Apple | Real World
--- | -- | --
-![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true)
-
-
-
-
-
-Data modelling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). Because the pedestrian overpass is under the expressway.<br>
-But, this is very eyesoar to me that Apple did not choose to use 'real-width road polygon', weird detachement or disconnection of disconnection of the pedestrian overpass is occured, once zoomed-in. <br>
-
-> real-width road polygon : buffered polygon from road centerline with its real width
-
-Google seemed to okay but it should go below the expressway.<br>
-Both are wrong, or maybe both are right according to their own mapping policy or mapping philsophy.
-
-
-
-
-- Let's talk about side effects of not using real-width road polygon.
-
-I love using real-width road polygon when the maps are zoomed-in.<br>
-=======
 <br>
 <br>
 
@@ -124,7 +98,6 @@ Or maybe both services are right according to their own policies or philsophy.
 <br>
 <br>
 I love using **real-width road polygon** when the maps are zoomed-in.<br>
->>>>>>> 6148f0e6cae4d97c470335f564ee583cabd3afd3
 When it is used, the map becomes more abundant and spacious. <br>
 'Spacious' is confusing term in map data, I guess, because it actually takes space on screen but spacious
 <br>
