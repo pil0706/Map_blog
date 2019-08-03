@@ -50,12 +50,6 @@ Their data and layering orders make me somewhat uncomfortable.
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 **Let's start with pedestrian overpass.**
 <br>
 One day, I took a bus from Narita Airport to Downtown Tokyo. <br>
@@ -68,7 +62,10 @@ The two major map service providers depicted the real world in totally differenc
 Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
 <br>
 <br>
+
 Check out how the real world look like<br>
+The pedestrian overpass goes under the expressway. 
+
 <img src = "https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true" width="400">
 
 and these are how Apple and Google layered in their services
@@ -76,49 +73,52 @@ and these are how Apple and Google layered in their services
 Apple | Google
 -- |  --
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_apple.gif?raw=true) | ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_google.gif?raw=true) 
-
-
-
-Data modelling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). Because the pedestrian overpass is under the expressway.<br>
-But, this is very eyesoar to me that Apple did not choose to use 'real-width road polygon', weird detachement or disconnection of disconnection of the pedestrian overpass is occured, once zoomed-in. <br>
-
-(real-width road polygon : buffered polygon from road centerline with its real width)
-
-Google seemed to okay but it should go below the expressway.<br>
-Both are wrong, or maybe both are right according to their own mapping policy or mapping philsophy.
-
-
-
-
-- Let's talk about side effects of not using real-width road polygon.
-
-I love using real-width road polygon when the maps are zoomed-in.<br>
+<br>
+<br>
+<br>
+Data modelling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). <br>
+But, this is very bizarre that Apple's pedestrian overpass is disconnected.<br>
+What it means is that the overpass goes under the expressway, they chose not to draw the hided parts.<br>
+But, nice try but Apple created side-effects.<br>
+It only works when the data goes with 'real-width road polygon'.<br>
+> real-width road polygon : buffered polygon from road centerline with its real width
+Google's pedestrian overpass seemed to look fine but it should go below the expressway.<br>
+<br>
+Both services did not illustrated the real world as it is.<br>
+Or maybe both services are right according to their own policies or philsophy.
+<br>
+<br>
+<br>
+**Let's talk about side-effects of not using real-width road polygon.**
+<br>
+I love using **real-width road polygon** when the maps are zoomed-in.<br>
 When it is used, the map becomes more abundant and spacious. <br>
-'Spacious' could cause mis-understanding, because it actually takes space on screen but spacious? <br>
-Yes, it takes space but other facilites can be on top of it, such as pedestrian crossing, bridge columns, and other pedestrian/human friendly facilities.
-
-
-
-Check out the expressway in Japan. <br>
-Google uses (at this time, they used Zenrin data) real-width road polygon so it showed toll booth and green areas on road.<br>
-On the other hand, Apple Maps is simple. (yes I know simple is the best)<br>
+'Spacious' is confusing term in map data, I guess, because it actually takes space on screen but spacious
+<br>
+<br>
+Let's go back to the previous eyesoar.<br>
+If Apple uses 'real-width road polygon', a center barrier of expressway could have been added without making disconnected pedestrian overpass.<br>
+Yes using it can reduce bizzare looking and cartographers can add more features.
+<br>
+<br>
+<br>
+Check out an expressway in Japan. <br>
+Google use 'real-width road polygon' so it showed toll booth and green areas on road (though now they changed their data).<br>
+<br> 
+On the other hand, Apple Maps does not show road facilities
+<br>
 
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/tg_aVsg.gif?raw=true)
 
 
-As far as I know, Japan and Korea are two countries provide the data.<br>
-Nonetheless, Google applied real-width road polygon only in Japan. This is something I want to know why.
-
-
-
-
-
-
-
-
-- Let's move on to downtown Tokyo. Who illustrated better? Modelling real-world.
-
-
+As far as I know, Japan and Korea are two countries provide the 'read-width road polygon' data.<br>
+Nevertheless, Google applied real-width road polygon only in Japan.<br>
+This is something I want to know why.
+<br>
+<br>
+<br>
+**Let's move on to downtown Tokyo. Who illustrated better? Modelling real-world.**
+<br>
 Tokyo, as one of the most complex cities in the world, is very hard to spatialize the city. <br>
 Countless overpass, pedestrian deck and overpass, bridges, 'a tunnel but highway ramp but also highway exit' are something you will never find in other countries.<br>
 
