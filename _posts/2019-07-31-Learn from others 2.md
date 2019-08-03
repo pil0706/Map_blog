@@ -36,7 +36,8 @@ I database-nized all these just because I habe been making/designing/layering/an
 <br>
 <br>
 <br>
-**Balance and harmony.** <br>
+**Balance and harmony.**
+<br>
 <br>
 I can't emphasize enough on the importance of them. <br>
 Well trained cartographers should consider **balance and harmony** when they make maps. <br>
@@ -51,6 +52,7 @@ Their data and layering orders make me somewhat uncomfortable.
 <br>
 <br>
 **Let's start with pedestrian overpass.**
+<br>
 <br>
 One day, I took a bus from Narita Airport to Downtown Tokyo. <br>
 I turned on maps as usual and started to compare services.<br>
@@ -94,6 +96,7 @@ Or maybe both services are right according to their own policies or philsophy.
 <br>
 **Let's talk about side-effects of not using real-width road polygon.**
 <br>
+<br>
 I love using **real-width road polygon** when the maps are zoomed-in.<br>
 When it is used, the map becomes more abundant and spacious. <br>
 'Spacious' is confusing term in map data, I guess, because it actually takes space on screen but spacious
@@ -122,11 +125,12 @@ This is something I want to know why.
 <br>
 **Let's move on to downtown Tokyo. Who illustrated better? Modelling real-world.**
 <br>
+<br>
 Tokyo, as one of the most complex cities in the world, is very hard to database-nized the city.
 <br>
-Countless overpass, pedestrian deck and overpass, bridges, __'a tunnel but highway ramp but also highway exit'__ are something you will never find in other countries.<br>
+Countless overpass, pedestrian deck and overpass, bridges, _'a tunnel but highway ramp but also highway exit'_ are something you will never find in other countries.<br>
 <br>
-__Meguro Sky Garden__ is one of my landmark when I map Tokyo.
+_Meguro Sky Garden_ is one of my landmark when I map Tokyo.
 <br>
 Oneday, I have noticed that something has changed on that landmark <br>
 and a few days later it changed again.
