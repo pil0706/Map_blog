@@ -82,6 +82,7 @@ But, this is very bizarre that Apple's pedestrian overpass is disconnected.<br>
 What it means is that the overpass goes under the expressway, they chose not to draw the hided parts.<br>
 But, nice try but Apple created side-effects.<br>
 It only works when the data goes with 'real-width road polygon'.<br>
+
 > real-width road polygon : buffered polygon from road centerline with its real width
 
 Google's pedestrian overpass seemed to look fine but it should go below the expressway.<br>
