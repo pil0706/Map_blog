@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Asian Way of Label Placement / 우리식의 레이블 표현
+title: Asian Way of Label Placement | 우리식의 레이블 표현
 ---
 
 As I am a cartographer (at least, that how I call my self), I think POI and its label (fonts) are more important than basemap.

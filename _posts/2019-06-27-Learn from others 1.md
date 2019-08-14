@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn from others mistakes / 다른사람의 실수로부터 배우기
+title: Learn from others mistakes | 다른사람의 실수로부터 배우기
 ---
 
 I am going to start with screenshots of Apple (L) and Google (R) Maps with out labels and POIs
