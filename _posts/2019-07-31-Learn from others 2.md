@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn from Apple/Google | Apple/Google로 부터 배우기
+title: Learn from Apple & Google Maps | Apple & Google 지도로 부터 배우기
 ---
 
 From the previous story, <br>
