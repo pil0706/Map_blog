@@ -16,7 +16,7 @@ And probably one of a very few who analyzed Map Data <br/>
 from HERE (world wide), iPC (Japan), Zenrin (Japan), OSM (world wide), and NAVER (Korea) layer
 <br/>
 <br/>
-- My Everyday Tools
+- My Everyday Tools <br/>
 **Map Data Display** : [QGIS](https://qgis.org/en/site/), [OpenLayers](https://openlayers.org/)<br/>
 **Map Data Analysis** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html)<br/>
 **Text Data Analysis** : [Spark with Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html), [Sublime Text](https://www.sublimetext.com/), Bash Shell Script, MS Excell and Google Sheets<br/>
@@ -40,7 +40,7 @@ Previous Korean Blog : [Do GIS at Seoul Nat'l Univ.](https://snugis.tistory.com/
 살펴본 얼마 없는 사람
 <br/>
 <br/>
-- 매일 사용하는 도구
+- 매일 사용하는 도구<br/>
 **지도 데이터 표현** : [QGIS](https://qgis.org/en/site/), [OpenLayers](https://openlayers.org/)<br/>
 **지도 데이터 분석** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html)<br/>
 **텍스트 데이터 분석** : [Spark with Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html), [Sublime Text](https://www.sublimetext.com/), Bash Shell Script, MS Excell and Google Sheets<br/>
