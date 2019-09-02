@@ -3,6 +3,8 @@ layout: post
 title: Popping Labels : Map Label Placement | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치
 ---
 
+# Label, the Finale of Cartography.
+
 Because of limited space,
 it is always hard to show all the labels on a map.
 
@@ -97,27 +99,64 @@ Z3-Z4 | Z4-Z5
 
 
 
+# Let's Talk About How The Label Positions are Different.
+
+
 It is obvious that the label positions of Apple Maps and Google Maps are very different.
+
+the two Koreas' label positions are somewhat similar. Difference between Apple and Google is just linebreak.
+
+But Google and Apple seemed to focus more in Japan.
+Because, there label positions are different in two maps.
+
+
+Japan's label position is very closed to Sendai area in Apple; on the other hand, Japan in Google stays in Honshu, the main island.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6asia_label_sq.png?raw=true">
 
+I know Apple does not pay too much attention to Korean market.
+I also know Google is trying to expand its territory to South Korea but the government puts regulation on Google.
+So the two koreas are abandoned by the two companies.
 
-By the way, I noticed that Europe was the best place where I can compare labels easily, for countries are very clustered.
+Japan, however, is very important market in Asia and I know the two companies are paying much attention on it.
+
+
+
+Let's go to Europe and see
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6eu_label_sq.png?raw=true">
 
+I noticed that Europe was the best place where I can compare labels easily, for countries are very clustered.
 
+It might be my stereotypes. Or I maybe don't know much about Europe. Other than France, most of 'well-known' European countries label positions are different in the two services.
+
+But the other countries, such as Romanica, Bulgaria, Moldova, Slovenia, Austria, Hungary, Switzerland, etc., I know there markets are not big enough nor population either.
+
+What I can guess is that
+- if the two services' label positions are close enough
+- then, the two services are not paying much attention?
+- else,
+- they are special?
+
+Cartographers in Apple and Google only know the facts.
+But, I know for sure that the two services' maps in the two Koreas are no good at all.
 
 From the screenshots above, you now can tell the two services have totally different philosophies in map designing.
 
 
 
-Let me go more detail.
-What about cities?
 
+
+
+
+
+# What about capitals?
+
+Let me go more details.
 
 
 Seems like Google also considered capital cities for the country label positions.
+
 For instance, Poland label slightly went down because the Warsaw label can be overlapped with Poland label.
 
 Same issue comes almost in everywhere in Europe.
@@ -130,13 +169,6 @@ If there are no more space to move the labels (like Belgium & the Nerherlands), 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_centroid_z5_eu2.png?raw=true">
 
 One funny thing is Belarus is very Big country though the label is smaller than its neighbors
-
-
-
-
-
-
-
 
 
 
