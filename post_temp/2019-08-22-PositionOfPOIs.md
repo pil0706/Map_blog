@@ -3,7 +3,7 @@ layout: post
 title: Popping Labels : Map Label Placement | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치
 ---
 
-# Label, the Finale of Cartography.
+# Label, the Finale of Cartography
 
 Because of limited space,
 it is always hard to show all the labels on a map.
@@ -78,7 +78,7 @@ Here, it took me forever to capture Apple Maps level by level
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap.png?raw=true">
 
-
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap_re.png?raw=true">
 
 
 I re-sized (reduced) Apple Maps Zoom level 5.
@@ -99,7 +99,7 @@ Z3-Z4 | Z4-Z5
 
 
 
-# Let's Talk About How The Label Positions are Different.
+# How The Label Positions are Different
 
 
 It is obvious that the label positions of Apple Maps and Google Maps are very different.
@@ -150,7 +150,7 @@ From the screenshots above, you now can tell the two services have totally diffe
 
 
 
-# What about capitals?
+# What about Capitals?
 
 Let me go more details.
 
@@ -183,6 +183,14 @@ Countries like Japan, Indoneia, China, Russia, and the Philippines show dramatic
 
 
 
+
+
+
+
+
+
+
+미국 State Capital and Well-Knwon cities
 
 
 
