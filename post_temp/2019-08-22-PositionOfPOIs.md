@@ -25,7 +25,7 @@ For instance, adjacent countries, Spain and Portugal,
 Portugal might not show up, for Spain takes space.
 In other words, there is no enough space to pose the label of Portugal.
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/no_portu.jpg?raw=true">
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/no_portu.png?raw=true">
 
 
 If I were a Portuguese, I might be upset.
@@ -99,14 +99,12 @@ Z3-Z4 | Z4-Z5
 
 It is obvious that the label positions of Apple Maps and Google Maps are very different.
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6asia_label_sq.png
-?raw=true">
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6asia_label_sq.png?raw=true">
 
 
 By the way, I noticed that Europe was the best place where I can compare labels easily, for countries are very clustered.
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6eu_label_sq.png
-?raw=true">
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6eu_label_sq.png?raw=true">
 
 
 
