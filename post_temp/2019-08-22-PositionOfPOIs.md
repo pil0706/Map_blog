@@ -1,93 +1,106 @@
 ---
 layout: post
-title: Popping Labels : Map Label Placement - Copenhagen Pikabu | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치 - 코펜하겐 까꿍
+title: Hopping Labels : Map Label Placement - Copenhagen Pikabu | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치 - 코펜하겐 까꿍
 ---
 
 # Label, the Finale of Cartography
 
-Because of limited space,
+Because of limited space, <br>
 it is always hard to show all the labels on a map.
-
-
+<br>
+<br>
 Let's say you are in a situation of labeling names of countries, especially in a lower zoom level.
-
-
-Each one of labels are very important.
+<br>
+<br>
+Each one of labels are very important.<br>
 If a country's label is hided or overlapped by another country's, someone might be upset.
-
-
+<br>
+<br>
 Therefore, cartographers must choose what to show or where to locate labels under a clear policy.
-
-
-One day,
-One of my colleagues asked me, can a label of Portugal be shown in low zoom level.
-
-
-For instance, adjacent countries, Spain and Portugal,
-Portugal might not show up, for Spain takes space.
+<br>
+<br>
+One day,<br>
+one of my colleagues asked me, can a label of Portugal be shown in low zoom level.
+<br>
+<br>
+For instance, adjacent countries, Spain and Portugal,<br>
+Portugal might not show up, for Spain takes space.<br>
 In other words, there is no enough space to pose the label of Portugal.
-
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/no_portu.png?raw=true">
-
-
+<br>
+<br>
 If I were a Portuguese, I might be upset.
-
-However, if the cartographer is Spanish?
+<br>
+However, if the cartographer is Spanish?<br>
 Spain comes first than Portugal, for his sake.
-
-
+<br>
+<br>
 To not to get egged, I see that Google Maps adjusts the labels in each zoom level.
-
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/portu_location_change.gif?raw=true">
-
+<br>
+<br>
 From Zoom Lv5, it seems like the label keeps its position till it gets dissapeared.
-
+<br>
 On the other hand, Apple Maps does seem to change labels location.
-
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/portu_location_change_apple.gif?raw=true">
-
-
-Apple Maps keeps their lable position consistently; on the other hand, Google Maps is more flexible in their label position.
-
-
+<br>
+<br>
+Apple Maps keeps their lable position consistently; On the other hand, Google Maps is more flexible in their label position.
+<br>
+<br>
 Based on my almost 9 years of map making experiences, it's very obvious that Apple and Google adjust unmovable labels manually.
+
 > I just coined out the term 'unmovalbe labels'. Unmovable Lables can be defined as labels of countries, cities, airport, etc.
 
 I can tell they are not using centroid of each countries.
-
+<br>
+<br>
 I used 'Centroid on Surface' to have center points of each countries.
 Here, I drew arrows between countries' centroid and Google's label.
-
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/naturalearth_google.gif?raw=true">
-
-
-The reason why I am showing this is that I want to emphasize Google and Apple did not just use simple centroid for labeling but **someone** (and I strongly believe that he or she is a very well cartographer who carries Google and Apple's internal policies or philosophies) manually replotted them.
-
+<br>
+<br>
+The reason why I am showing this is that I want to emphasize Google and Apple did not just use simple centroid for labeling
+<br>
+but **someone** (and I strongly believe that he or she is a very well cartographer who carries Google and Apple's internal policies or philosophies) manually replotted them.
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_google_z4.png?raw=true">
-
-
-Google changes their location level by level, on the other hand
-Apple sets its initial location and uses all zoom levels
-
+<br>
+<br>
+Google changes their location level by level<br>
+On the other hand, Apple sets its initial location and uses all zoom levels
+<br>
+<br>
 Here, it took me forever to capture Apple Maps level by level
-
+<br>
+<br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_z4.png?raw=true">
 
 > I tried to match Apple's Zoom level to Google's Zoom Level but this was the best I could do.
 
-
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap.png?raw=true">
-
-
+<br>
+<br>
 I re-sized (reduced) Apple Maps Zoom level 5.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_eu_z3z4_overlap_again.png?raw=true">
 
-
+<br>
+<br>
 To improve the readability of label's location, I dotted the center of labels in Europe.
-
-
+<br>
+<br>
 Although I pointed my shaking hands and PowerPoint's auto snapping, the lables position remained almost in same spots.
+
 
 Z3-Z4 | Z4-Z5
 -- | --
