@@ -78,8 +78,6 @@ Here, it took me forever to capture Apple Maps level by level
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap.png?raw=true">
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap_re.png?raw=true">
-
 
 I re-sized (reduced) Apple Maps Zoom level 5.
 
@@ -134,11 +132,11 @@ But the other countries, such as Romanica, Bulgaria, Moldova, Slovenia, Austria,
 
 What I can guess is that
 - if the two services' label positions are close enough
-- then, the two services are not paying much attention?
+    - then, the two services are not paying much attention?
 - else,
-- they are special?
+    - they are special?
 
-Cartographers in Apple and Google only know the facts.
+Cartographers in Apple Maps and Google Maps only know the facts.
 But, I know for sure that the two services' maps in the two Koreas are no good at all.
 
 From the screenshots above, you now can tell the two services have totally different philosophies in map designing.
@@ -152,24 +150,44 @@ From the screenshots above, you now can tell the two services have totally diffe
 
 # What about Capitals?
 
-Let me go more details.
+
+It seems like Google Maps also considered capital cities together when country lables are plotted.
 
 
-Seems like Google also considered capital cities for the country label positions.
+For instance, the centroid of Poland is south-west area of its capital, Warsaw.
+But, Google moved it up of Warsaw so that it does not overlapped as much as it was before.
 
-For instance, Poland label slightly went down because the Warsaw label can be overlapped with Poland label.
-
-Same issue comes almost in everywhere in Europe.
-Belarus, Lithuania, Latvia, Spain, Bosnia & Herzegovina, Hungary, Czech, Italy, etc.
+If it stays in centroid of the country, and it covers the capital, either one of labels will not be shown.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_centroid_z5_eu1.png?raw=true">
 
-If there are no more space to move the labels (like Belgium & the Nerherlands), Google decided to reduce the font size based on its area.
+Also, I have noticed that if there aren't enough space to move the labels (like Belgium & the Nerherlands), Google decided to reduce the font size based on its area.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_centroid_z5_eu2.png?raw=true">
 
 One funny thing is Belarus is very Big country though the label is smaller than its neighbors
 
+
+
+
+
+
+
+I see Google cared in label position in every zoom levels.
+
+This, I guess, is the rule of thumb in POI and Label positioning areas.
+
+- Zoom Lv 3, where capitals can be shown if there are enough spaces, country labels are more important than the capital labels
+- Zoom Lv 4, it might be nice to show "well-known" capitals such as Paris, London, Berlin, Oslo, Rome, etc.
+- Zoom Lv 5, capitals are better be on even if cartographers adjust the country label's original position.
+- Zoom Lv 6, capitals must be exposed unless city countries like Singapore, Vatican City, Monaco, and so on.
+- from Zoom Lv 7, I don't have to mention.
+
+
+Let's go back to the Portugal's example.
+
+
+As I mentioned above, the country labels popped, for 
 
 
 
@@ -262,6 +280,9 @@ It should keep balance
 National Geographic의 주기 표현
 
 
+
+
+PS: There are diplomatic issues between Japan and Korea. I do not want my lovely countries are fighting.
 
 
 --- 한국어 버전
