@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Popping Labels : Map Label Placement | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치
+title: Popping Labels : Map Label Placement - Copenhagen Pikabu | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치 - 코펜하겐 까꿍
 ---
 
 # Label, the Finale of Cartography
@@ -187,43 +187,56 @@ This, I guess, is the rule of thumb in POI and Label positioning areas.
 Let's go back to the Portugal's example.
 
 
-As I mentioned above, the country labels popped, for 
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/google_z_portugal.gif?raw=true">
+
+Lisbon, the capital, does not really need to be shown in Zoom Lv 3.
+Lisbon is not as big as Madrid (no offense to Portuguese) so Google Maps seemed to decide more well-known cities than Lisbon. But, the label of Portugal is moved for the next Zoom Lv
+> by moving around the labels, cartographers can reduce the risks of map readers gets 'surprised' when lots of cities are on in next zoom level
+When the capital and the country label are taking stable positions, where no other labels are interrupt, they remain in same position.
+
+
+What about Apple Maps?
+
+
+I positioned the label of Portugal in center as much as possible.
+
+
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_z_portugal.gif?raw=true">
+
+
+Yes, Portugal never changes. Also, other country labels never changes it's position.
+
+
+
+Therefore, Warsaw is hidden by Poland, in which you do not see on Google Maps, and ended up showing the last compared to other cities in Poland when zooming-in.
+
+> I suppose the Map App. calculates the collision of the labels in client side.
+
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/Apple_Warsaw.png?raw=true">
+
+
+I have also noticed that Apple Maps is following conventional rules of cartography, such as labeling as much as possible.
+You may also find it from National Geographic Maps.
 
 
 
 
-I draw squares where country label is supposed to be (without manual adjustment / with using centroid of country) and its capital label.
-
-Countries like Japan, Indoneia, China, Russia, and the Philippines show dramatic
+I think Apple Maps is going harder way, for country labels should be in "optimal" location where it considers its neighbor country labels and capital labels.
 
 
-
-
+I have never heard of automating label position tools.
+Lower zoom levels of Web-Map are areas where machines cannot create aesthetic balance, for it has so much consideration. (Google may be..?)
 
 
 
+Google Maps' label hopping is more rational for cartographers like me, because I can adjust most optimal location of them level by level.
 
-
-
-
-
-
-미국 State Capital and Well-Knwon cities
-
-
-
-
-
-
-
-Google's method is easier? or Apple? 
-I personally think Apple took harder way to go.
-Because in lower zoom level, it is hard to consider all the important cities. Google, for me it's more rational, to change the country label's location and changes it in each level.
-
+> there are only 200 something countries and 200 something capitals, it is not much hassles to me.
 
 
 
 Something came up to my mind that Apple might have a tool to support a tool like Google has.
+
 If you are working for a cartographer, you would know what I meant.
 For those who are not familiar, let me explain.
 
@@ -239,50 +252,31 @@ I would make multiple tables and pop the label position like Google (still doesn
 
 
 
+Maybe, I should write an article of National Geographic Labeling and Label's priority rule someday.
 
 
 
 
 
+PS1 : There are diplomatic issues between Japan and Korea. I do not want my lovely countries are fighting. But I saw something bizarre in Seoul.
+- Apple Maps in デモ
 
-도시와 나라 오버랩
+Hey, come on...
+You really think Embassy's priority is that high in that zoom level?
 
-
-
-
-
-City
-
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/japanese_embassy.png?raw=true">
 
 
-
-In some cases, a city name can be more important than other countries' name.
-or a country's capital can be hided by its country's name.
-
-For instance, Vatican is a country but Rome is a capital. Which one should be displayed?
-What's more imporant than others?
+I don't like Maps are being used to cause political controversial.
 
 
-Maps from National Geographic Society is probably an answer for those who are struggling.
-Because Natioanl Geographic Society loves their subscribers so much, they are labeling all the cities as possible.
-But is their map is the only way?
+PS2 : I reall do want to know what tools Google uses and how they make maps.
+- Copenhagen Pikabu
 
-for paper map, that's probably the best way to do.
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/copenhagen_pikabu.png?raw=true">
 
-What about Web Map?
-
-I make web map.
-It should keep balance 
-
-
-
-
-National Geographic의 주기 표현
-
-
-
-
-PS: There are diplomatic issues between Japan and Korea. I do not want my lovely countries are fighting.
+As soon as Denmark is gone, Copenhagen popped up.
+PIKA.....BU!!!!!
 
 
 --- 한국어 버전
