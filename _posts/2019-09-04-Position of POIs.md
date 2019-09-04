@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hopping Labels - Copenhagen Pikabu | 뛰어 다니는 레이블(주기) - 코펜하겐 까꿍
+title: Hopping Labels - Copenhagen Pikabu | 뛰어 다니는 주기 - 코펜하겐 까꿍
 ---
 
 ##It's all about, Label Placement.
@@ -166,7 +166,7 @@ What I can guess is that
 - if the two maps label positions are close enough,
     - means that they are not paying much attention? (except, France?)
 - else,
-    - they are being cared?
+    - they are being cared?<br>
 <br>
 <br>
 Apple and Google Maps only know.<br>
@@ -188,9 +188,8 @@ If it stays in centroid of the country, and it covers the capital, either one of
 
 <br>
 <br>
-<br>
-<br>
 Also, I have noticed that if there aren't enough space to move the labels (like Belgium & the Nerherlands),<br>
+<br>
 Google decided to reduce the font size based on its area.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_centroid_z5_eu2.png?raw=true">
@@ -296,9 +295,11 @@ By the way, I should write an article of National Geographic Labeling and Label'
 <br>
 <br>
 <br>
-PS1 : There are diplomatic issues between Japan and Korea. <br>
+PS1 : デモ in Apple Maps<br>
+<br>
+There are diplomatic issues between Japan and Korea. <br>
 I do not want my lovely countries are fighting. But I saw something bizarre in Seoul.<br>
-- Apple Maps in デモ
+<br>
 Hey, come on...<br>
 You really think Embassy's priority is that high in that zoom level?
 
@@ -310,8 +311,9 @@ I don't like Maps are being used to cause political controversial.
 <br>
 <br>
 <br>
-PS2 : I reall do want to know what tools Google uses and how they make maps.<br>
-- Copenhagen Pikabu
+PS2 : Copenhagen Pikabu<br>
+<br>
+I reall do want to know what tools Google uses and how they make maps.<br>
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/copenhagen_pikabu.png?raw=true">
 
