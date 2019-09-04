@@ -4,6 +4,7 @@ title: Hopping Labels : Map Label Placement - Copenhagen Pikabu | 뛰어 다니�
 ---
 
 # Label, the Finale of Cartography
+
 Because of limited space, <br>
 it is always hard to show all the labels on a map.
 <br>
@@ -59,12 +60,14 @@ Based on my almost 9 years of map making experiences, it's obvious that Apple Ma
 
 I can tell they are not using centroid of each countries.
 <br>
+I used 'Centroid on Surface' to have center points of each countries.<br>
 <br>
-I used 'Centroid on Surface' to have center points of each countries.
 Here, I drew lines between centroid points of each contries from Natural Earth data and Google Maps place labels.
 <br>
 <br>
+
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/naturalearth_google.gif?raw=true">
+
 <br>
 <br>
 The reason why I am showing this is that<br>
@@ -73,14 +76,16 @@ I want to emphasize Google Maps and Apple Maps did not just use simple centroid 
 Instead, **someone** (and I strongly believe that he or she is a very well cartographer who carries Google and Apple's internal policies or philosophies) manually replotted them.
 <br>
 <br>
+
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_google_z4.png?raw=true">
 <br>
 <br>
+
 Also, Google Maps changes their location level by level.<br>
 On the other hand, Apple sets its initial location and uses all zoom levels
 <br>
 <br>
-----------
+
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_z4.png?raw=true">
 
 > I tried to match Apple's Zoom level to Google's Zoom Level but this was the best I could do.
@@ -170,7 +175,6 @@ From the screenshots above, you now can tell the two services have totally diffe
 
 # What about Capitals?
 
-
 It seems like Google Maps considers capital cities when country lables are plotted.
 <br>
 For instance, the centroid of Poland is south-west area of its capital, Warsaw.<br>
@@ -217,7 +221,6 @@ But, the label of Portugal is moved up for the next Zoom Lv<br>
 > by moving around the labels, cartographers can reduce the risks of map readers gets 'surprised' when lots of cities are on in next zoom level
 
 <br>
-<br>
 When the capital and the country label are taking stable positions, where no other labels are interrupted such as from Zlv 5 - 6, they remain in same position.
 <br>
 <br>
@@ -232,13 +235,11 @@ I positioned the label of Portugal in center as much as possible.
 
 Yes, Portugal never changes.<br>
 Also, other country labels never changes it's position.
+
 > We've checked this above
 
-<br>
-<br>
 Therefore, Warsaw is hidden by Poland, in which you do not see on Google Maps.<br>
 Warsaw is showed up at the last as I zooming in, though it's the capital.<br>
-<br>
 
 > I suppose the Map App. calculates the collision of the labels in client side.
 
@@ -259,7 +260,7 @@ Lower zoom levels of Web-Map are areas where machines cannot create aesthetic ba
 <br>
 <br>
 Google Maps' label hopping is more rational for cartographers like me,<br>
-because I can manually adjust most optimal location of them level by level.
+because I can manually adjust most optimal location of them level by level.<br>
 
 > there are only 200 something countries and 200 something capitals, it is not much hassles to me.
 
@@ -291,17 +292,20 @@ I will find them out someday.
 By the way, I should write an article of National Geographic Labeling and Label's priority rule someday.
 <br>
 <br>
+<br>
+<br>
 PS1 : There are diplomatic issues between Japan and Korea. <br>
 I do not want my lovely countries are fighting. But I saw something bizarre in Seoul.<br>
-<br>
 - Apple Maps in デモ
-<br>
 Hey, come on...<br>
 You really think Embassy's priority is that high in that zoom level?
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/japanese_embassy.png?raw=true">
 
 I don't like Maps are being used to cause political controversial.
+<br>
+<br>
+<br>
 <br>
 <br>
 PS2 : I reall do want to know what tools Google uses and how they make maps.<br>
