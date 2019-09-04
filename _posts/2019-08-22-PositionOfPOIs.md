@@ -3,7 +3,7 @@ layout: post
 title: Hopping Labels : Map Label Placement - Copenhagen Pikabu | 뛰어 다니는 레이블(주기) : 지도 레이블(주기) 위치 - 코펜하겐 까꿍
 ---
 
-### Label, the Finale of Cartography
+**Label, the Finale of Cartography**
 
 Because of limited space, <br>
 it is always hard to show all the labels on a map.
@@ -115,7 +115,7 @@ Z3-Z4 | Z4-Z5
 
 
 
-### How The Label Positions are Different in Google Maps and Apple Maps
+**How The Label Positions are Different in Google Maps and Apple Maps**
 
 
 Now, it is obvious that the label positions of Apple Maps and Google Maps are very different.
@@ -173,7 +173,7 @@ But, I know for sure that the two Koreas are not being focused.<br>
 <br>
 From the screenshots above, you now can tell the two services have totally different philosophies in map designing.
 
-### What about Capitals?
+**What about Capitals?**
 
 It seems like Google Maps considers capital cities when country lables are plotted.
 <br>
