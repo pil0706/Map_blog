@@ -156,16 +156,19 @@ Let's go to Europe again
 Europe, because of its lable density, is the best place to compare label positions.
 <br>
 <br>
-Other than France, most of 'well-known' European countries label positions are different in the two services.
+Other than France, most of 'well-known' European countries' label positions are not located in same 
+
+
+different in the two services.
 <br>
 But countries like Romania, Bulgaria, Moldova, Slovenia, Austria, Hungary, Switzerland, etc.,<br>
 In Apple Maps and Google Maps, the label positions are almost overlapped.
 <br>
 <br>
-What I can guess is that
-- if the two maps label positions are close enough,
-    - means that they are not paying much attention? (except, France?)
-- else,
+What I can guess is that<br>
+- if the two maps label positions are close enough,<br>
+    - means that, they are not paying much attention? (except, France?)<br>
+- else,<br>
     - they are being cared?<br>
 <br>
 <br>
