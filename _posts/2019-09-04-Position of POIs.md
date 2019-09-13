@@ -172,6 +172,7 @@ What I can guess is that<br>
     - they are being cared?<br>
 <br>
 <br>
+이부분 수정하자 하자 하자 <br>
 Apple and Google Maps only know.<br>
 But, I know for sure that the two Koreas are not being focused.<br>
 <br>
