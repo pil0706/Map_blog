@@ -167,12 +167,11 @@ In Apple Maps and Google Maps, the label positions are almost overlapped.
 <br>
 What I can guess is that<br>
 - if the two maps label positions are close enough,<br>
-    - means that, they are not paying much attention? (except, France?)<br>
+ - means that, they are not paying much attention? (except, France?)<br>
 - else,<br>
-    - they are being cared?<br>
+ - they are being cared?<br>
 <br>
 <br>
-이부분 수정하자 하자 하자 <br>
 Apple and Google Maps only know.<br>
 But, I know for sure that the two Koreas are not being focused.<br>
 <br>
