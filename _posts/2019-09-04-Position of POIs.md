@@ -168,8 +168,6 @@ What I can guess is that<br>
 - else,
     - they are being cared?
 
-
-
 <br>
 <br>
 But, I know for sure that the two Koreas are not being focused.<br>
