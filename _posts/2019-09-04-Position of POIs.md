@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hopping Labels - Copenhagen Pikabu | 뛰어 다니는 주기 - 코펜하겐 까꿍
+title: Hopping Labels | 뛰어 다니는 주기
 ---
 
 ##It's all about, Label Placement.
