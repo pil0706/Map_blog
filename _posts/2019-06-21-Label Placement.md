@@ -61,7 +61,7 @@ I have to say I am not condescending asian cartographers, for in the past wester
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
-| ![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/64625883_10156915209464892_2026769743855222784_n.jpg?_nc_cat=100&_nc_ht=scontent.ficn1-1.fna&oh=1532321ac030280251a6c8b32d5e24fa&oe=5D809976)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
+| ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/14th_worldmap.jpg?raw=true)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
 
 
 Anyway, thanks Mapbox for a new toy.
@@ -116,7 +116,7 @@ API가 공개되면 실험 을 좀 해본뒤에 결과물을 공유하도록 하
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
-| ![alt text](https://scontent.ficn1-1.fna.fbcdn.net/v/t1.0-9/64625883_10156915209464892_2026769743855222784_n.jpg?_nc_cat=100&_nc_ht=scontent.ficn1-1.fna&oh=1532321ac030280251a6c8b32d5e24fa&oe=5D809976)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
+| ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/14th_worldmap.jpg?raw=true)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
 
 아무튼, 새로운 장난감을 선사해주신 Mapbox에게 감사드립니다.
 
