@@ -5,6 +5,8 @@ _site
 Gemfile.lock
 .DS_Store
 vendor
+screenshots/
+post_temp/
 screenshots/positionofpois/apple_asia_z4.png
 screenshots/positionofpois/apple_asia_z4_1.png
 screenshots/positionofpois/apple_asia_z5.png
