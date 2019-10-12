@@ -6,7 +6,6 @@
 * {
   margin: 0;
   padding: 0;
-  width: 90%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -97,7 +96,7 @@ th {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 1000px;
   padding: 0 20px;
 }
 
