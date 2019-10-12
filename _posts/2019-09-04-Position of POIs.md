@@ -298,23 +298,11 @@ By the way, I should write an article of National Geographic Labeling and Label'
 <br>
 <br>
 <br>
-PS1 : デモ in Apple Maps<br>
-<br>
-There are diplomatic issues between Japan and Korea. <br>
-I do not want my lovely countries are fighting. But I saw something bizarre in Seoul.<br>
-<br>
-Hey, come on...<br>
-You really think Embassy's priority is that high in that zoom level?
-
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/japanese_embassy.png?raw=true">
-
-I don't like Maps are being used to cause political controversial.
 <br>
 <br>
 <br>
 <br>
-<br>
-PS2 : Copenhagen Pikabu<br>
+PS : Copenhagen Pikabu<br>
 <br>
 I really do want to know what tools Google uses and how they make maps.<br>
 
@@ -638,24 +626,11 @@ Z3-Z4 | Z4-Z5
 <br>
 <br>
 <br>
-PS1 : 애플 지도의 데모<br>
-<br>
-일본과 한국사이 외교 문제가 있습니다.<br>
-나의 사랑하는 나라들이 싸우는걸 바라지 않습니다.
-하지만 저는 서울에서 이상한것을 봤습니다.<br>
-<br>
-이봐요...<br>
-대사관의 우선순위가 저 줌레벨에서 이렇게 높을거라고 생각하시는지요?
-
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/japanese_embassy.png?raw=true">
-
-저는 지도가 정치적인 논란거리로 사용되는것을 좋아하지 않습니다.
 <br>
 <br>
 <br>
 <br>
-<br>
-PS2 : Copenhagen 까꿍<br>
+PS : Copenhagen 까꿍<br>
 <br>
 저는 구글이 어떤 도구를 사용하고 어떻게 만드는지 정말 진짜 알고싶습니다.<br>
 
