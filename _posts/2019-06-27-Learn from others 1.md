@@ -3,16 +3,16 @@ layout: post
 title: Learn from Others Mistakes | 다른사람의 실수로부터 배우기
 ---
 
-I am going to start with screenshots of Apple (L) and Google (R) Maps with out labels and POIs
+I am going to start with screenshots of Apple (L) and Google (R) Maps without labels and POIs.
 
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/aVsg_edit.png?raw=true">
 </p>
 
 
-I have found out a few buildings on water bodies, as you may noticed from the screenshots. <br>
-These type of residence is usually in the southeast Asia.<br>
-But, you are looking at somewhere in Japan
+I have found out a few buildings on water bodies, as you may notice from the screenshots. <br>
+This type of residence is usually in the Southeast Asia.<br>
+But, you are looking at somewhere in Japan.
 
 <p align="center">
  <img widht="600" height="600" src="https://i.pinimg.com/originals/3a/9b/cd/3a9bcd20ab39bf79bfab51c2ad033bca.jpg">
@@ -20,65 +20,76 @@ But, you are looking at somewhere in Japan
 
 
 In fact, I reported last year through Twitter and Apple asked me where that was.<br>
-And I lost their contacts.
+And I lost their contacts.<br>
+
 <p align="center">
- <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png?raw=true">
+ <img widht="300" height="300" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/twitter_screenshot.png?raw=true">
 </p>
 
-
-
-
 Japan as a country I like,<br>
-I do wonder around Japan through Apple and Google Maps quite often and try to capture as much mistakes as I can.<br>
+I do wonder around Japan through Apple and Google Maps quite often<br> and try to capture as much mistakes as I can.<br>
+<br>
+<br>
 Those database help me not to make same mistakes (on that location) as they have made and it really does help my map looks better.
-
-
+<br>
+<br>
 Anyway,<br>
-buildings on water, that's very おかしい（weird).<br>
-I was just curious why they did make the same mistakes, because my map looks just fine.
+buildings on water, that's very おかしい (weird).<br>
+I was just curious why they did make the same mistakes, because my map looks just fine. (the screenshot below is my map in the same spot)
 <p align="center">
  <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png?raw=true">
 </p>
 
-I came out with conclusions below, which causes this phenomenon (buildings on water).<br>
+I came out with conclusions below, which causes this phenomenon : buildings on water.<br>
 
-**A**. Data did not come from one source<br>
+**Data did not come from one source**<br>
 
 > for instance, water bodies, buildings, road links all are from difference sources
 
-**B**. Like the Bermuda triangle, only that part of world has projection bugs<br>
+**Like the Bermuda triangle, only that part of world has projection bugs**<br>
 
-> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe go too far. I don't want to believe they made that mistakes.)
+> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe went too far. I don't want to believe they made that mistakes.)
 
-**C**. I may be wrong
+**I may be wrong**<br>
 
 
-So, I tracked their data.<br>
+So, I tracked their **data sources** first.<br>
+
+<br>
+<br>
 Google's data provider's attribution can be easily found and it used to be Zenrin but now it does not show anything.
 <p align="center">
  <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution.png?raw=true">
 </p>
-In other countries, you still can find the data providers but not in lower level
+In other countries (Singapore, in the follwing screenshots), you still can find the data providers but not in lower zoom level.
+
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/google_attribution_changes.gif?raw=true">
 </p>
 
 
+Apple announced that they use Increment P Corp. data for Japan. <br>
+<br>
+<br>
 
-Apple announced that they use Increment P Corp. data for Japan and I assumed that possible open-sourced data providers are WAZE, OSM.
-
-
-
-Google probably did not make water bodies or their data from scratch.<br>
-Let me track them down.
-
-OSM and Natural Earth are probably the easiest open-sourced spatial data provider so I started to check their data first.<br>
+But, Increment P or Zenrin provide the global water bodies?<br>
+<br>
+<br>
+I believe Apple and Google probably drew global water bodies from 'somewhere' and made details after.<br>
+Which means that they did not make water bodies from the scratch.<br>
+<br>
+<br>
+I assumed that possible open-source data could be added to Apple and Google Maps are WAZE, OSM, and Natural Earth.
+<br>
+<br>
+So, I tracked possible open-source data down one by one.
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Natural Earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Open Street Map (planet.osm.pbf)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)
 
 
-A.1. **Natural Earth**<br>
+1. **Natural Earth**<br>
 they provide as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
 
 <p align="center">
@@ -86,11 +97,17 @@ they provide as accurate as 1 to 10 Million scale, I guess I do not have to down
 </p>
 Okay, it is too obvious.
 
-A.2. **Open Street Map**<br>
+2. **Open Street Map**<br>
 Let's go with Open Street Map's water area.
 
-This is a little bit tricky though I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'.<br>
-OSM Taginfo is really pain in the butt but I just used natural=water and natural=coastline.<br>
+This is a little bit tricky though <br>
+I had to install osmosis to extract water bodies and OGR convert them to familiar format like 'shape'.<br>
+<br>
+<br>
+OSM Taginfo is really pain in the butt<br>
+but I just used natural=water and natural=coastline.<br>
+<br>
+<br>
 for more detail, you may go here -> [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
 
 > (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
@@ -98,42 +115,51 @@ for more detail, you may go here -> [OSM taginfo](https://taginfo.openstreetmap.
 
 I downloaded world osm.pbf file and extracted water boundaries only.
 
-> You can try with the planet site but it will take forever to download (for 24 hours, with my house network and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).<br>
-> I used geofabrik instead, where you can specify your target country/region.<br>
-> After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+> You can try with the planet site but it will take forever to download (for 24 hours, with my house network and my iMac (i5 3.2GHz, 24GB 1600 MHz) was only able to download 16% of planet data).
+
+I used geofabrik instead, where you can specify your target country/region.
+
+After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+
 
 
 These are the data results of the bizarre area.<br>
 - No OSM Building provided in OSM.PBF
 - Google and Apple seemed to have the river in polygon but OSM provides only line
 
-Here's the data I extracted from OSM.PBF and Openstreetmap 
+Here's the data I extracted from OSM.PBF and Openstreetmap
+
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/osm.gif?raw=true">
 </p>
 
 
-A.3. **Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)**<br>
+3. **Openstreetmap Data : [Data Download Link](https://osmdata.openstreetmap.de)**<br>
 I guess I don't have much expectation on their data..
+
 <p align="center">
  <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/opendata.png?raw=true">
 </p>
+ 
 The coastline detail is much better than OpenStreetMap or Natural Earth though inland waterbodies didn't exist.
-
-
+<br>
+<br>
 So... what now, what's left?
-
-B. projection?<br>
+<br>
+<br>
+**Projection?**<br>
+<br>
 But, would it be possible that both services have same projection bugs in same area?
-
-C. I am wrong?<br>
-Let's say I don't know.<br>
+<br>
+<br>
+**I am wrong?**<br>
+<br>
 I was not able to get building polygons from both Google and Apple. <br>
-But wat I can tell is the water polygons or land polygons are not compatible with buildings in Japan. This applies to both services coincidentaly.
-
-
-
-
+<br>
+But wat I can tell is the water polygons or land polygons are not compatible with buildings in Japan.<br>
+This applies to both services coincidentaly.
+<br>
+<br>
 Other trivial errors, it was meaningless to post them here.<br>
 But buildings on water phenomena were somewhat eyesoar to me and I decided to post.
 
