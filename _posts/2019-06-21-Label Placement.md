@@ -73,15 +73,19 @@ When this API comes for public, I will monkey around and post it.
 <br>
 <br>
 Additionally, I am sharing the difference of making maps of the East and the West.<br>
+<br>
 I, personally, think Asian maps had very BAD readability (or maybe that is because I do not know how to read Chinese character, Kanji).<br>
 I have to say I am not condescending asian cartographers,<br> 
 for in the past western maps also did not have any concepts of projections and others.<br>
-But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect, yet web-mercator projection is my favorite) and in the end europeans conquered the world until the world war II.<br>
+<br>
+<br>
+But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect, yet web-mercator projection is my favorite) and at the end, the europeans conquered the world until the world war II.<br>
 <br>
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
 | ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/14th_worldmap.jpg?raw=true)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
+
 <br>
 <br>
 Anyway, thanks Mapbox for a new toy.
@@ -160,10 +164,11 @@ API가 공개되면 실험 을 좀 해본뒤에 결과물을 공유하도록 하
 하지만, Mercaotors가 정말로 멋진 지도를 만든것은 사실이고 (제가 Web-Mercator의 좌표계를 최애하지만, Mercoator의 좌표계가 완벽하다는 것은 아닙니다.)<br>
 그의 지도로 유럽사람들이 세계를 지배한것은 사실이니까요.<br>
 <br>
-<br>
+
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
 | ------------- | :-----------: |
 | ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/14th_worldmap.jpg?raw=true)| ![alt text](https://t1.daumcdn.net/cfile/tistory/23538934586FA9C212)
+
 <br>
 <br>
 아무튼, 새로운 장난감을 선사해주신 Mapbox에게 감사드립니다.
