@@ -5,65 +5,64 @@ title: Asian Way of Map Label Placement | 우리식의 지도 레이블 표현
 
 As I am a cartographer <br>
 (at least, that how I call my self), <br>
-I think POI and its label (fonts) are more important than basemap.
-
+I think POI and labels (fonts) are more important than basemap.
 <br>
 <br>
 Let's say the basemap looks legit.<br>
-Yet, the label and poi markers(icons) are bad,<br>
+Yet, the labels and POI markers (or icons) are bad,<br>
 then the MAP does not look alright. (which is obvious)<br>
 <br>
 <br>
 No matter how much time you spent to make the basemap,<br>
-the awful labels (& fonts) will contaminate the overall map design (I used the word 'contaminate', because it really does).
+the awful labels (or fonts) will contaminate the overall map design<br>(I used the word 'contaminate', because it really does).
 <br>
 <br>
 Therefore, cartographers should spend a lot of time into POI and its assembled parts (font, color, icon, marker, and so forth).<br>
 <br>
 I, however, am color blind and not trained as a typographer, making maps with good readability is somewhat challenging.
 <br>
-<br>
-So, What I did was going to a libray and read books about typography (or font in my term) and chromatics (or coloring in my term).
-<br>
+So, what I did was going to a libray and read books about typography (or font in my term) and chromatics (or coloring in my term).
 <br>
 But this is not enough to make myself to be a unique cartographer.<br>
-I thought about what makes me different among all cartographers world wide.
+I thought about what makes me different among all cartographers in the world.
 <br>
 <br>
-When I was in college in the U.S., (I guess Asians are no longer unique these days, but they were in Minnesota)<br>
+When I was in college in the U.S.,<br>
+(I guess Asians are no longer unique these days, but they were in up north Minnesota)<br>
 I, sometimes, was being focused in my department.<br>
 So, I guess I better use the 'Asian' card in cartographers' world.<br>
 <br>
 <br>
-What I am trying to do is researching the 'Asian' way of geography (풍수지리),<br>
-also known as Feng Shui (in chinese) and I do not know in English.<br>
+What I tried was researching the 'Asian' way of geography (풍수지리),<br>
+also known as Feng Shui (in chinese).<br>
 <br>
 Mostly, the Asian way of geography is focused on location-allcation,<br>
-such as 'Where is the best location for my Ancestors graveyard' or 'Where is the best location for a house'
+such as 'Where is the best location for my ancestors' graveyard' or 'Where is the best location for a house'
 <br>
 <br>
-But, I am focusing more into 'how to implement Asian way of thoughts in making maps'.
+But, I decided to do 'how to implement Asian way of thoughts in making maps'.
 <br>
 <br>
-One of my favorite countries, Japan, still a lot of people are reading books in vertically right to left and that is still in common.<br>
-I thought about how I am implement that way of label placement for the Japanese and for those who like Japanes culture.
+One of my favorite countries, Japan, still a lot of people are reading books in vertically/right to left.<br>
+I thought about how I am going to apply that Japan's unique reading method to maps.
 <br>
 <br>
 Because cartographers duties are not only making maps for the generals, but for the locals.<br>
 <br>
-Glocalization is probably the most required conditino for cartographers, I believe.<br>
+Glocalization is probably the most required condition for cartographers, I believe.<br>
+<br>
 Also, understanding the taget country's culture and custom is the key to drag to succeful map service.<br>
-Anyway, these are few of my philosophies about making maps.
+<br>
+Anyway, these are few of my philosophies about making maps.<br>
 <br>
 <br>
 Again, as I am a 'Asian' cartographer, who were educated in the U.S., better readability and more information comes first.<br>
 <br>
-But, I am also considering how I am going to mingle with Asian culture with westernized cartography method, along with GIS knoweldege.<br>
+But, I am also considering how I am going to mingle with Asian culture with westernized cartography method, along with GIS knoweldege.
 <br>
 <br>
-Well, it seems like Mapbox did that for me.<br>
-Today (about 14 hours ago), Mapbox did the exprement with vertical label placement in Tokyo, Japan.
-<br>
+Well, it seems like Mapbox already did that for me.<br>
+Today, Mapbox did the exprement with vertical label placement in Tokyo, Japan.
 <br>
 ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/mapbox_japan.png?raw=true)
 <br>
@@ -71,15 +70,17 @@ Today (about 14 hours ago), Mapbox did the exprement with vertical label placeme
 When this API comes for public, I will monkey around and post it.
 <br>
 <br>
+Additionally, I am sharing the difference of making maps of the East and the West.
 <br>
-Additionally, I am sharing the difference of making maps of the East and the West.<br>
 <br>
 I, personally, think Asian maps had very BAD readability (or maybe that is because I do not know how to read Chinese character, Kanji).<br>
+<br>
 I have to say I am not condescending asian cartographers,<br> 
 for in the past western maps also did not have any concepts of projections and others.<br>
 <br>
-<br>
-But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect, yet web-mercator projection is my favorite) and at the end, the europeans conquered the world until the world war II.<br>
+But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect,<br>
+yet web-mercator projection is my favorite)<br>
+and at the end, the europeans conquered the world until the world war II.<br>
 <br>
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
