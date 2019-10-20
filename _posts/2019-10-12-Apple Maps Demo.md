@@ -9,9 +9,11 @@ I do not want my lovely countries are fighting. But I saw something bizarre in S
 Hey, come on...<br>
 You really think Embassy's priority is that high in that zoom level?
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/japanese_embassy.png?raw=true">
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/seoul_new.png?raw=true">
+Before| After
+--|--
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/japanese_embassy.png?raw=true"> | <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/seoul_new.png?raw=true">
+
 I don't like Maps are being used to cause political controversial.
 <br>
 
@@ -28,7 +30,8 @@ I don't like Maps are being used to cause political controversial.
 이봐요...<br>
 대사관의 우선순위가 저 줌레벨에서 이렇게 높을거라고 생각하시는지요?
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/japanese_embassy.png?raw=true">
+Before| After
+--|--
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/japanese_embassy.png?raw=true">|<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/seoul_new.png?raw=true">
 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/seoul_new.png?raw=true">
 저는 지도가 정치적인 논란거리로 사용되는것을 좋아하지 않습니다.
