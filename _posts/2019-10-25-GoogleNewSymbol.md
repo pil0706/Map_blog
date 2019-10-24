@@ -41,13 +41,10 @@ the rail/subway exits one of the keys to find routes.
 Let's say you are explaining a location using this map below. <br>
 There are so many roads and buildings. <br>
 <br>
-
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku.gif?raw=true")
-
 <br>
 You can't label them all in this small space. <br>
 What can be landmarks in this region then? <br>
-<br>
 Meanwhile, <br>
 you can simply tell the position of something using exits.
 
@@ -66,7 +63,7 @@ I was able to find an old styled google maps. <br>
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/tokyo_stn.gif?raw=true)
 
 One is Google Maps in 2017 and the other one is in 2019 <br>
-You can easily notice the exit number.
+You can easily notice the exit numbers.
 
 <br>
 <br>
