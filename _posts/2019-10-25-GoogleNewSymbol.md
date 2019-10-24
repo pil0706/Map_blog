@@ -83,7 +83,9 @@ But not all Japanese rail/subway exits are changed.
 
 
 **Shinjuku Nishiguchi**  <br>
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.gif?raw=true" width="80%" height="80%">
+Exit Number 7 is duplicated somehow. <br>
+
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.gif?raw=true">
 
 <br>
 <br>
