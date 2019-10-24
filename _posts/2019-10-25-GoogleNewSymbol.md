@@ -38,18 +38,16 @@ In big and complicating cities like Tokyo, Seoul, Chicago and New York City,<br>
 the rail/subway exits one of the keys to find routes.
 <br>
 <br>
-Let's say you are explaining a location using this map below.
-
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_wo_labels.png?raw=true" width="90%" height="90%">
+Let's say you are explaining a location using this map below. <br>
 There are so many roads and buildings. <br>
+<br>
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku.gif?raw=true">
+<br>
 You can't label them all in this small space. <br>
 What can be landmarks in this region then? <br>
 <br>
-<br>
 Meanwhile, <br>
-with the map below, you can simply tell position of something using exits.
-
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_w_labels.png?raw=true" width="90%" height="90%">
+you can simply tell position of something using exits.
 
 
 <br>
@@ -61,7 +59,8 @@ However, Google Maps did not exaggerate the exit symbol a few weeks ago.
 
 
 Luckily, <br>
-I was able to find unchanged and duplicates (with old-style) exits from my repository.
+I was able to find an old styled google maps. <br>
+
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/tokyo_stn.gif?raw=true)
 
 One is Google Maps in 2017 and the other one is in 2019 <br>
