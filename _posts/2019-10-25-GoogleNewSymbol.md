@@ -81,8 +81,8 @@ Numazu, where my good friend lives, all exits are changed to new symbol style
 But not all Japanese rail/subway exits are changed.
 
 
-**Shinjuku Nishiguchi** 
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.png?raw=true width="80%" height="80%">
+**Shinjuku Nishiguchi**  <br>
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.png?raw=true" width="80%" height="80%">
 
 <br>
 <br>
