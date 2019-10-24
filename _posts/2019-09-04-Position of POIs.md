@@ -58,12 +58,12 @@ Apple Maps keeps their lable position consistently; on the other hand, Google Ma
 <br>
 Based on my almost 9 years of map making experiences, it's obvious that Apple Maps and Google Maps adjust **the place labels** manually.
 
-> the place lables can be defined as labels of countries, cities, airport, etc.
+> the place labels can be defined as labels of countries, cities, airports, etc.
 
-I can tell they are not using centroid of each countries.
+I can tell they are not using centroid of each country.
 <br>
-I used 'Centroid on Surface' to show center points of each countries, <br>
-and drew lines between centroid points of each contries from Natural Earth data and Google Maps place labels.
+I used 'Centroid on Surface' to show center points of each country, <br>
+and drew lines between centroid points of each country from Natural Earth data and Google Maps place labels.
 <br>
 <br>
 
@@ -74,7 +74,7 @@ and drew lines between centroid points of each contries from Natural Earth data 
 The reason why I am showing this is that<br>
 I want to emphasize Google Maps and Apple Maps did not just use simple centroid for labeling<br>
 <br>
-And, **someone** (and I strongly believe that he or she is a very well trained cartographer who carries Google and Apple's internal policies or philosophies) manually replotted the lables.
+And, **someone** (and I strongly believe that he or she is a very well trained cartographer who carries Google and Apple's internal policies or philosophies) manually replotted the labels.
 <br>
 <br>
 
@@ -94,19 +94,19 @@ On the other hand, Apple sets its initial location and uses all zoom levels
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_google_overlap.png?raw=true">
 <br>
 
-> and finally ended up matching Apple Maps and Google Maps with same scale
+> and finally ended up matching Apple Maps and Google Maps with the same scale
 
 
 <br>
 <br>
 I marked the center point of country labels in ZLv3 and Zlv4 in Apple Maps.<br>
-Further, I re-sized (reduced) Zlv4 to match to Zlv3, in order to compare position of Apple Maps' country label positions.
+Further, I re-sized (reduced) Zlv4 to match to Zlv3, to compare the position of Apple Maps' country label positions.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_eu_z3z4_overlap_again.png?raw=true">
 
 <br>
 <br>
-With my shaking hands and PowerPoint's auto snapping, I was able to know that the lables position remained almost in same spots in every levels in Apple Maps.
+With my shaking hands and PowerPoint's auto snapping, I was able to know that the labels position remained almost in the same spots in every level in Apple Maps.
 
 Z3-Z4 | Z4-Z5
 -- | --
@@ -120,16 +120,16 @@ Z3-Z4 | Z4-Z5
 
 
 Now, it is obvious that the label positions of Apple Maps and Google Maps are very different.
-One stays in same position and the other hops in each level.
+One stays in the same position and the other hops in each level.
 <br>
 <br>
 I overlapped Apple and Google maps again.<br>
 The two Koreas' label positions are somewhat similar.<br>
-Difference between Apple and Google maps is just linebreak.
+The difference between Apple and Google maps is just linebreak.
 <br>
 <br>
 But, Google and Apple seemed to focus more in Japan,<br>
-Because, JAPAN (in Apple) and Japan (in Google) are in different spots
+Because JAPAN (in Apple) and Japan (in Google) are in different spots
 <br>
 <br>
 In Apple Maps, JAPAN is very closed to Sendai; on the other hand, in Google Maps, Japan stays in Honshu, the main island.
@@ -140,11 +140,11 @@ In Apple Maps, JAPAN is very closed to Sendai; on the other hand, in Google Maps
 I know Apple does not pay too much attention to Korean market.<br>
 I also know Google is trying to expand its territory to South Korea but the government puts regulation on Google.<br>
 
-> the two koreas are abandoned by the two companies.
+> the two Koreas are abandoned by the two companies.
 
 <br>
 <br>
-Japan, however, is important market in Asia and I know the two companies are paying much attention on it compare to Koreas
+Japan, however, is an important market in Asia and I know the two companies are paying much attention to it compare to Koreas
 <br>
 <br>
 Let's go to Europe again
@@ -152,7 +152,7 @@ Let's go to Europe again
 <br>
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/z6eu_label_sq.png?raw=true">
 <br>
-Europe, because of its lable density, is the best place to compare label positions.
+Europe, because of its label density, is the best place to compare label positions.
 <br>
 <br>
 Other than France, most of 'well-known' European countries' label positions are not located in the center of the countries.
@@ -166,27 +166,27 @@ What I can guess is that<br>
 - if a country's label position in the two maps are close enough,
     - means that, the country is not being focused by Apple and Google Maps(except, France?)
 - else,
-    - it is being cared?
+    - it is being cared for?
 
 <br>
 <br>
 But, I know for sure that the two Koreas are not being focused.<br>
-From the screenshots above, you now can tell the two services have totally different philosophies in map designing.
+From the screenshots above, you now can tell the two services have different philosophies in map designing.
 
 ### What about Capitals?
 
-It seems like Google Maps considers capital cities when country lables are plotted.
+It seems like Google Maps considers capital cities when country labels are plotted.
 <br>
-For instance, the centroid of Poland is south-west area of its capital, Warsaw.<br>
-But, Google moved the country label up of Warsaw so that it does not overlapped with the capital.
+For instance, the centroid of Poland is the south-west area of its capital, Warsaw.<br>
+But, Google moved the country label up of Warsaw so that it does not overlap with the capital.
 <br>
-If it stays in centroid of the country, and it covers the capital, either one of labels will not be shown.
+If it stays in the centroid of the country, and it covers the capital, either one of the labels will not be shown.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/ne_centroid_z5_eu1.png?raw=true">
 
 <br>
 <br>
-Also, I have noticed that if there aren't enough space to move the labels (like Belgium & the Nerherlands),<br>
+Also, I have noticed that if there isn't enough space to move the labels (like Belgium & the Netherlands),<br>
 <br>
 Google decided to reduce the font size based on its area.
 
@@ -203,15 +203,15 @@ These, I guess, are the rule of thumb in POI and Label positioning.<br>
 - Zoom Lv 3, where capitals can be shown if there are enough spaces, <br>     - country labels are more important than the capital labels
 - Zoom Lv 4, it might be nice to show "well-known" capitals <br>
     - such as Paris, London, Berlin, Oslo, Rome, etc.
-- Zoom Lv 5, capitals are better be on <br>
+- Zoom Lv 5, capitals are better to be on <br>
     - even if cartographers adjust the country label's initial position.
 - Zoom Lv 6, capitals must be exposed<br>
-    - except city countries like Singapore, Vatican City, Monaco, and so on.
+    - except for city countries like Singapore, Vatican City, Monaco, and so on.
 - from Zoom Lv 7, I don't have to mention.
 
 <br>
 <br>
-Keep those in your mind, and let's go back to the Portugal's example.
+Keep those in your mind, and let's go back to Portugal's example.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/google_z_portugal.gif?raw=true">
 
@@ -224,27 +224,27 @@ But, the label of Portugal is moved up for the next Zoom Lv<br>
 > by moving around the labels, cartographers can reduce the risks of map readers gets 'surprised' when lots of cities are popped in next zoom level
 
 <br>
-When the capital and the country label are taking stable positions, where no other labels are interrupted such as from Zlv 5 - 6, they remain in same position.
+When the capital and the country label are taking stable positions, where no other labels are interrupted such as from Zlv 5 - 6, they remain in the same position.
 <br>
 <br>
 What about Apple Maps?
 <br>
 <br>
-I positioned the label of Portugal in center of the screen.
+I positioned the label of Portugal in the center of the screen.
 
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/apple_z_portugal.gif?raw=true">
 
 
 Yes, Portugal never changes.<br>
-Also, other country labels never changes it's position.
+Also, other country labels never change their position.
 
 > We've checked this above
 
 Therefore, Warsaw is hidden by Poland, in which you do not see on Google Maps.<br>
 Warsaw is showed up at the last as I zooming in, though it's the capital.<br>
 
-> I suppose the Map App. calculates the collision of the labels in client side.
+> I suppose the Map App. calculates the collision of the labels on the client-side.
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/positionofpois/Apple_Warsaw.png?raw=true">
 
@@ -255,19 +255,19 @@ I have also noticed that Apple Maps is following conventional rules of cartograp
 You may also find it from National Geographic Maps.
 <br>
 <br>
-Apple Maps is going harder way, for country labels should be in "optimal" location where it considers its neighbor country labels and capital labels (even sometimes well-known cities).
+Apple Maps is going a harder way, for country labels should be in "optimal" location where it considers its neighbor country labels and capital labels (even sometimes well-known cities).
 <br>
 <br>
 I have never heard of automating label position tools.<br>
-Lower zoom levels of Web-Map are areas where machines cannot create aesthetic balance, for it has so much consideration. (Google may be..?)
+Lower zoom levels of Web-Map are areas where machines cannot create an aesthetic balance, for it has so much consideration. (Google maybe..?)
 <br>
 <br>
 Google Maps' label hopping is more rational for cartographers like me,<br>
-because I can manually adjust most optimal location of them level by level.<br>
+because I can manually adjust the most optimal location of them level by level.<br>
 
-> there are only 200 something countries and 200 something capitals, it is not much hassles to me.
+> there are only 200 something countries and 200 something capitals, it is not many hassles to me.
 
-Something came up to my mind that Apple might not have a tool to place lables like Google has.
+Something came up to my mind that Apple might not have a tool to place labels as Google has.
 <br>
 <br>
 If you are working for a cartographer, you would know what I meant.<br>
@@ -276,14 +276,14 @@ For those who are not familiar, let me explain.
 Usually, a label on a map is one record in a table. <br>
 <br>
 <br>
-When lable has to hop like Google, a label is duplicates but not in geometry perspectives. (though it might have Zlv in fields)<br>
+When a label has to hop like Google, a label is duplicated but not in geometry perspectives. (though it might have Zlv in fields)<br>
 <br>
 <br>
 What I can assume is Google has multiple records of a country or they have a VERY NICE tool to control all that.
 <br>
 <br>
 On the other hand, Apple might not.<br>
-In this case, they might keep only one record of a country and make very precise initial position.
+In this case, they might keep only one record of a country and make a very precise initial position.
 <br>
 <br>
 I would make multiple records and pops the label positions like Google<br>
@@ -293,7 +293,7 @@ I will find them out someday.
 <br>
 <br>
 <br>
-By the way, I should write an article of National Geographic Labeling and Label's priority rule someday.
+By the way, I should write an article about National Geographic Labeling and Label's priority rule someday.
 <br>
 <br>
 <br>

@@ -21,7 +21,7 @@ Therefore, cartographers should spend a lot of time into POI and its assembled p
 <br>
 I, however, am color blind and not trained as a typographer, making maps with good readability is somewhat challenging.
 <br>
-So, what I did was going to a libray and read books about typography (or font in my term) and chromatics (or coloring in my term).
+So, what I did was going to a library and read books about typography (or font in my term) and chromatics (or coloring in my term).
 <br>
 But this is not enough to make myself to be a unique cartographer.<br>
 I thought about what makes me different among all cartographers in the world.
@@ -34,9 +34,9 @@ So, I guess I better use the 'Asian' card in cartographers' world.<br>
 <br>
 <br>
 What I tried was researching the 'Asian' way of geography (풍수지리),<br>
-also known as Feng Shui (in chinese).<br>
+also known as Feng Shui (in Chinese).<br>
 <br>
-Mostly, the Asian way of geography is focused on location-allcation,<br>
+Mostly, the Asian way of geography is focused on location-allocation,<br>
 such as 'Where is the best location for my ancestors' graveyard' or 'Where is the best location for a house'
 <br>
 <br>
@@ -47,27 +47,27 @@ One of my favorite countries, Japan, still a lot of people are reading books in 
 I thought about how I am going to apply that Japan's unique reading method to maps.
 <br>
 <br>
-Because cartographers duties are not only making maps for the generals, but for the locals.<br>
+Because cartographers duties are not only making maps for the generals, but the locals.<br>
 <br>
 Glocalization is probably the most required condition for cartographers, I believe.<br>
 <br>
-Also, understanding the taget country's culture and custom is the key to drag to succeful map service.<br>
+Also, understanding the target country's culture and custom is the key to drag to successful map service.<br>
 <br>
 Anyway, these are few of my philosophies about making maps.<br>
 <br>
 <br>
 Again, as I am a 'Asian' cartographer, who were educated in the U.S., better readability and more information comes first.<br>
 <br>
-But, I am also considering how I am going to mingle with Asian culture with westernized cartography method, along with GIS knoweldege.
+But, I am also considering how I am going to mingle with Asian culture with westernized cartography methods, along with GIS knowledge.
 <br>
 <br>
 Well, it seems like Mapbox already did that for me.<br>
-Today, Mapbox did the exprement with vertical label placement in Tokyo, Japan.
+Today, Mapbox did the experiment with vertical label placement in Tokyo, Japan.
 <br>
 ![alt text](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/mapbox_japan.png?raw=true)
 <br>
 <br>
-When this API comes for public, I will monkey around and post it.
+When this API comes for the public, I will monkey around and post it.
 <br>
 <br>
 Additionally, I am sharing the difference of making maps of the East and the West.
@@ -75,12 +75,12 @@ Additionally, I am sharing the difference of making maps of the East and the Wes
 <br>
 I, personally, think Asian maps had very BAD readability (or maybe that is because I do not know how to read Chinese character, Kanji).<br>
 <br>
-I have to say I am not condescending asian cartographers,<br> 
+I have to say I am not condescending Asian cartographers,<br> 
 for in the past western maps also did not have any concepts of projections and others.<br>
 <br>
-But, this is the fact that Mercator did make really awesome map (but I am not saying mercator proejction is perfect,<br>
-yet web-mercator projection is my favorite)<br>
-and at the end, the europeans conquered the world until the world war II.<br>
+But, this is the fact that Mercator did make a really awesome map (but I am not saying Mercator projection is perfect,<br>
+yet Web-Mercator projection is my favorite)<br>
+and at the end, the Europeans conquered the world until the world war II.<br>
 <br>
 
 | Mecator's Map in 14 C | Old Korean Map in 14 C |
@@ -98,7 +98,7 @@ I was playing with Mapbox studio and found out, as of right now,<br> Mapbox does
 It is a little trick that you just change Max Width to 1<br>
 <br>
 <br>
-Here, I attached video of how I did.<br>
+Here, I attached a video of how I did.<br>
 Korean doesn't seem to be working with this trick but Chinese/Japanese are working well
 ![gif](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/1st/label_placement.gif?raw=true)
 

@@ -7,12 +7,12 @@ There are diplomatic issues between Japan and Korea. <br>
 I do not want my lovely countries are fighting. But I saw something bizarre in Seoul.<br>
 <br>
 Hey, come on...<br>
-You really think Embassy's priority is that high in that zoom level?
+Do you really think the Embassy's priority is that high in that zoom level?
 
 
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/apple_demo/embassy.gif?raw=true">
 
-I don't like Maps are being used to cause political controversial.
+I don't like Maps are being used to cause political controversy.
 <br>
 
 
