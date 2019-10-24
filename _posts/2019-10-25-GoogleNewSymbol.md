@@ -49,7 +49,7 @@ You can't label them all in this small space. <br>
 What can be landmarks in this region then? <br>
 <br>
 Meanwhile, <br>
-you can simply tell position of something using exits.
+you can simply tell the position of something using exits.
 
 
 <br>
