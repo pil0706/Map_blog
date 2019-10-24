@@ -41,7 +41,9 @@ the rail/subway exits one of the keys to find routes.
 Let's say you are explaining a location using this map below. <br>
 There are so many roads and buildings. <br>
 <br>
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku.gif?raw=true">
+
+![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku.gif?raw=true")
+
 <br>
 You can't label them all in this small space. <br>
 What can be landmarks in this region then? <br>
@@ -81,7 +83,7 @@ But not all Japanese rail/subway exits are changed.
 
 
 **Shinjuku Nishiguchi**  <br>
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.png?raw=true" width="80%" height="80%">
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/google_map_symbol/shinjuku_not_all_changed.gif?raw=true" width="80%" height="80%">
 
 <br>
 <br>
