@@ -13,6 +13,7 @@ What I think about a good map is <br>
 geometric and text information are well mingled without any eyesoar.
 - Eyesore <- this is very vague and controversial, <br>
    for some people might not think what I think is not an eyesore.
+
 <br>
 Anyway, the best way of minimizing the side-effect of mingling the two information is, I keep saying,<br>
 "the balance".
