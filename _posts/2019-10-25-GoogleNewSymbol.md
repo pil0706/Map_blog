@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Symbol Readability - Subway Exit | 심볼 가독성 - 지하철 출구
+title: Symbol Readability-Subway Exit | 심볼 가독성-지하철 출구
 ---
 
 In the previous article, <br>
