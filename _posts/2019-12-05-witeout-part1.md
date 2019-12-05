@@ -31,7 +31,7 @@ So, all labels are printed in English.
 
 But what about the island?
 The island is very tiny and the label doesn't need to show up in small scale (lower zoom level).
-<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/language_setting1.png?raw=true">
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/language_setting.png?raw=true">
 
 
 But, once I zoom-in the label is different.
@@ -57,7 +57,7 @@ Ah! Apple Korea does not have a map service team!
 
 
 
-- Notice
+- Notice <br>
 'The Korean channel and water polygon missing' articles will be uploaded soon.
 
 
