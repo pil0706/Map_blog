@@ -75,19 +75,23 @@ Apple announced that they use Increment P Corp. data for Japan. <br>
 But, Increment P or Zenrin provide the global water bodies?<br>
 <br>
 <br>
+
 I believe Apple and Google probably drew global water bodies from 'somewhere' and made details after.<br>
 Which means that they did not make water bodies from the scratch.<br>
 <br>
 <br>
+
 I assumed that possible open-source data could be added to Apple and Google Maps are WAZE, OSM, and Natural Earth.
+
 <br>
 <br>
 So, I tracked possible open-source data down one by one.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Natural Earth<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Open Street Map (planet.osm.pbf)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)
+- 1. Natural Earth<br>
+- 2. Open Street Map (planet.osm.pbf)<br>
+- 3. Openstreetmap Data -> [Data Web](https://osmdata.openstreetmap.de)
 
+<br>
 
 1. **Natural Earth**<br>
 they provide as accurate as 1 to 10 Million scale, I guess I do not have to download them but I did.
