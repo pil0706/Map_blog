@@ -37,7 +37,7 @@ Here, I set the language setting in English.
 <img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/language_setting.png?raw=true">
 
 But what about the island?<br>
-In small scale (lower zoom level), the label language looked different.
+In small scale (lower zoom level), the label language looks different.
 
 Under this situation,<br>
 For native English speakers, it is easy to recognize 'un-readable' labels. <br>
