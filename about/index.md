@@ -18,7 +18,7 @@ from HERE (world wide), iPC (Japan), Zenrin (Japan), OSM (world wide), and NAVER
 <br/>
 - My Everyday Tools <br/>
 **Map Data Display** : [QGIS](https://qgis.org/en/site/), [OpenLayers](https://openlayers.org/)<br/>
-**Map Data Analysis** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html), [Python 3.X](https://www.python.org/) with [GeoPandas](http://geopandas.org/) and other spatial tools<br/>
+**Map Data Analysis** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html), [Python 3.X](https://www.python.org/) with [GeoPandas](http://geopandas.org/), [GeoSpark](http://geospark.datasyslab.org/) with HDFS, Hadoop with spatial functions and other spatial tools<br/>
 **Text Data Analysis** : [Spark with Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html), [Sublime Text](https://www.sublimetext.com/), Bash Shell Script, MS Excell and Google Sheets<br/>
 **Map Data Serving** : [Geoserver](http://geoserver.org/), [PostgreSQL](https://www.postgresql.org/)<br/>
 **Others** : [Google Docs](https://www.google.com/docs/about/), [CentOS](https://www.centos.org/) <br/>
@@ -42,7 +42,7 @@ Previous Korean Blog : [Do GIS at Seoul Nat'l Univ.](https://snugis.tistory.com/
 <br/>
 - 매일 사용하는 도구<br/>
 **지도 데이터 표현** : [QGIS](https://qgis.org/en/site/), [OpenLayers](https://openlayers.org/)<br/>
-**지도 데이터 분석** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html), [Python 3.X](https://www.python.org/) with [GeoPandas](http://geopandas.org/) and other spatial tools<br/>
+**지도 데이터 분석** : [PostGIS](https://postgis.net/) with [Crankshaft](https://github.com/CartoDB/crankshaft), [GeoDa](https://geodacenter.github.io/), [GDAL/OGR](https://gdal.org/index.html), [Python 3.X](https://www.python.org/) with [GeoPandas](http://geopandas.org/), [GeoSpark](http://geospark.datasyslab.org/) with HDFS, Hadoop with spatial functions and other spatial tools<br/>
 **텍스트 데이터 분석** : [Spark with Scala](https://spark.apache.org/docs/0.9.1/scala-programming-guide.html), [Sublime Text](https://www.sublimetext.com/), Bash Shell Script, MS Excell and Google Sheets<br/>
 **지도 데이터 서빙** : [Geoserver](http://geoserver.org/), [PostgreSQL](https://www.postgresql.org/)<br/>
 **기타** : [Google Docs](https://www.google.com/docs/about/), [CentOS](https://www.centos.org/) <br/>

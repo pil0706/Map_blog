@@ -65,7 +65,7 @@ Perhaps, Google is not really focusing on their maps on pedestrian perspectives.
 <br>
 <br>
 
-Check out how the real world look like<br>
+Check out how the real world looks like<br>
 The pedestrian overpass goes under the expressway. 
 
 <img src = "https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/overpass_real.png?raw=true" width="400">
@@ -79,18 +79,18 @@ Apple | Google
 <br>
 <br>
 <br>
-Data modelling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). <br>
+Data modeling wise, Apple is correct (or iPC, Apple Maps data provider in Japan). <br>
 But, this is very bizarre that Apple's pedestrian overpass is disconnected.<br>
 What it means is that the overpass goes under the expressway, they chose not to draw the hided parts.<br>
 Nice try but Apple created side-effects.<br>
 It only works when the data goes with 'real-width road polygon'.<br>
 
-> real-width road polygon : buffered polygon from road centerline with its real width
+> real-width road polygon: buffered polygon from road centerline with its real width
 
 Google's pedestrian overpass seemed to look fine but it should go below the expressway.<br>
 <br>
-Both services did not illustrated the real world as it is.<br>
-Or maybe both services are right according to their own policies or philsophy.
+Both services did not illustrate the real world as it is.<br>
+Or maybe both services are right according to their own policies or philosophy.
 <br>
 <br>
 <br>
@@ -99,17 +99,17 @@ Or maybe both services are right according to their own policies or philsophy.
 <br>
 I love using **real-width road polygon** when the maps are zoomed-in.<br>
 When it is used, the map becomes more abundant and spacious. <br>
-'Spacious' is confusing term in map data, I guess, because it actually takes space on screen but spacious
+'Spacious' is a confusing term in map data, I guess because it actually takes space on-screen but spacious
 <br>
 <br>
-Let's go back to the previous eyesoar.<br>
+Let's go back to the previous eyesore.<br>
 If Apple uses 'real-width road polygon', a center barrier of expressway could have been added without making disconnected pedestrian overpass.<br>
-Yes using it can reduce bizzare looking and cartographers can add more features.
+Yes using it can reduce bizarre looking and cartographers can add more features.
 <br>
 <br>
 <br>
 Check out an expressway in Japan. <br>
-Google use 'real-width road polygon' so it shows toll booth and green areas on road (though now they changed their data).<br>
+Google uses 'real-width road polygon' so it shows toll booth and green areas on road (though now they changed their data).<br>
 <br> 
 On the other hand, Apple Maps does not show road facilities
 <br>
@@ -123,32 +123,32 @@ This is something I want to know why.
 <br>
 <br>
 <br>
-**Let's move on to downtown Tokyo. Who illustrated better? Modelling real-world.**
+**Let's move on to downtown Tokyo. Who illustrated better? Modeling real-world.**
 <br>
 <br>
 Tokyo, as one of the most complex cities in the world, is very hard to database-nized the city.
 <br>
-Countless overpass, pedestrian deck and overpass, bridges, _'a tunnel but highway ramp but also highway exit'_ are something you will never find in other countries.<br>
+Countless overpass, pedestrian deck, and overpass, bridges, _'a tunnel but highway ramp but also highway exit'_ are something you will never find in other countries.<br>
 <br>
-_Meguro Sky Garden_ is one of my landmark when I map Tokyo.
+_Meguro Sky Garden_ is one of my landmarks when I map Tokyo.
 <br>
-Oneday, I have noticed that something has changed on that landmark on Google Maps <br>
+One day, I have noticed that something has changed on that landmark on Google Maps <br>
 and a few days later it changed again.
 <br>
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_google.gif?raw=true)
 
 Yes, this was the day when Google has changed their data provider from Zenrin to their own.<br> 
-Green areas and color of tunnel have added.<br>
+Green areas and color of the tunnel have added.<br>
 So, Google is trying to depict the real world as accurate as possible.
 
 > So, for those who are not familiar with Meguro Sky Garden,
-> It is a building/condominium/but inside of it is expressway/ramp/exit/IC and on top of it is football field and garden.
+> It is a building/condominium/but inside of it is expressway/ramp/exit/IC and on top of it is a football field and garden.
 
 Meguro Sky Garden is one big giant building at street level (and most of Tokyoite are walking or biking)<br>
-From the aerial view, futsal field and skygarden are the two most outstanding features there.
+From the aerial view, the futsal field and sky garden are the two most outstanding features there.
 ![](https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/meguro_now_streetlevel.png?raw=true)
 
-> By the way, the cafe on the leftside is one of my favorite dessert/cafe in Nakameguro
+> By the way, the cafe on the left side is one of my favorite dessert/cafe in Nakameguro
 
 
 The tunnel style improved a lot compared to the first version. <br>
@@ -169,9 +169,9 @@ In fact, Apple's Meguro Sky Garden shows the 'greate circle' building (though th
 
 
 
-Google announced Spatial Data Independence of Japan. <br>
+Google announced the Spatial Data Independence of Japan. <br>
 I am sure their cartographers did know the side-effects of data independence <br>
-Nevertheless, Google decided to do. <br>
+Nevertheless, Google decided to do it. <br>
 Their decision process and drive are, I have to say, darn good.
 
 

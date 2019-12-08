@@ -27,28 +27,28 @@ And I lost their contacts.<br>
 </p>
 
 Japan as a country I like,<br>
-I do wonder around Japan through Apple and Google Maps quite often<br> and try to capture as much mistakes as I can.<br>
+I do wonder around Japan through Apple and Google Maps quite often<br> and try to capture as many mistakes as I can.<br>
 <br>
 <br>
-Those database help me not to make same mistakes (on that location) as they have made and it really does help my map looks better.
+Those databases help me not to make same mistakes (on that location) as they have made and it really does help my map look better.
 <br>
 <br>
 Anyway,<br>
 buildings on water, that's very おかしい (weird).<br>
-I was just curious why they did make the same mistakes, because my map looks just fine. (the screenshot below is my map in the same spot)
+I was just curious why they did make the same mistakes because my map looks just fine. (the screenshot below is my map in the same spot)
 <p align="center">
  <img widht="600" height="600" src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/2nd/myMap.png?raw=true">
 </p>
 
-I came out with conclusions below, which causes this phenomenon : buildings on water.<br>
+I came out with conclusions below, which causes this phenomenon: buildings on water.<br>
 
 **Data did not come from one source**<br>
 
-> for instance, water bodies, buildings, road links all are from difference sources
+> for instance, water bodies, buildings, road links all are from different sources
 
-**Like the Bermuda triangle, only that part of world has projection bugs**<br>
+**Like the Bermuda triangle, only that part of the world has projection bugs**<br>
 
-> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe went too far. I don't want to believe they made that mistakes.)
+> when service providers convert spatial data to vector tiles, that area has 'unknown' issues? (I maybe went too far. I don't want to believe they made those mistakes.)
 
 **I may be wrong**<br>
 
@@ -114,7 +114,7 @@ but I just used natural=water and natural=coastline.<br>
 <br>
 for more detail, you may go here -> [OSM taginfo](https://taginfo.openstreetmap.org/keys/natural#values)
 
-> (you could use imposm3 and postgis but this isn't my work related so I use the. simplest way to do)
+> (you could use imposm3 and PostGIS but this isn't my work-related so I use the. simplest way to do)
 
 
 I downloaded world osm.pbf file and extracted water boundaries only.
@@ -123,13 +123,13 @@ I downloaded world osm.pbf file and extracted water boundaries only.
 
 I used geofabrik instead, where you can specify your target country/region.
 
-After I did extract and convert the data, I could just show openstreetmap because it is basically same as planet.osm.pbf (There always are easiest and fastest way to achieve your goal.)
+After I did extract and convert the data, I could just show openstreetmap because it is the same as planet.osm.pbf (There always are the easiest and fastest way to achieve your goal.)
 
 
 
 These are the data results of the bizarre area.<br>
 - No OSM Building provided in OSM.PBF
-- Google and Apple seemed to have the river in polygon but OSM provides only line
+- Google and Apple seemed to have the river in polygon but OSM provides the only line
 
 Here's the data I extracted from OSM.PBF and Openstreetmap
 
@@ -153,19 +153,19 @@ So... what now, what's left?
 <br>
 **Projection?**<br>
 <br>
-But, would it be possible that both services have same projection bugs in same area?
+But, would it be possible that both services have the same projection bugs in the same area?
 <br>
 <br>
 **I am wrong?**<br>
 <br>
 I was not able to get building polygons from both Google and Apple. <br>
 <br>
-But wat I can tell is the water polygons or land polygons are not compatible with buildings in Japan.<br>
-This applies to both services coincidentaly.
+But what I can tell is the water polygons or land polygons are not compatible with buildings in Japan.<br>
+This applies to both services coincidentally.
 <br>
 <br>
 Other trivial errors, it was meaningless to post them here.<br>
-But buildings on water phenomena were somewhat eyesoar to me and I decided to post.
+But buildings on water phenomena were somewhat eyesore to me and I decided to post.
 
 
 
