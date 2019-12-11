@@ -1,6 +1,7 @@
-title: Pil, Newbie Cartgrapher.
-author: Pil Kwon, Cartographer
-description: Pil's Map Blog based on Jekyll brume theme.
+title: Pil Kwon, Cartgrapher 지도만드는 사람 권필
+email: pil_kwon@naver.com
+
+description: Trying to organize my thoughts about maps
 
 highlighter: null
 permalink: /:title
