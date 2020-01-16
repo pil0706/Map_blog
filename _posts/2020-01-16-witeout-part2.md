@@ -56,5 +56,27 @@ But, my map's waterbodies/coastline did not use a free-hand drawing cut-out. I j
 
 
 
+Here, I attached how I did to merge Korea and Japan waterbodies together a long long time ago.
+
+
+This is a screenshot of the waterbodies of Japan and Korea. The blue line is on the Korean Channel, where 'water boundaries between the two countries'.
+
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/japan_data.png?raw=true">
+
+
+I thought about using EEZ to cut-out each country's waterbodies.
+HERE, I downloaded EEZ data from natural earth
+
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/eez2.png?raw=true">
+
+
+And this was the result of merging waterbody layers.
+<img src="https://github.com/pil0706/pil0706.github.io/blob/master/screenshots/the_korean_channel/japan_korea.png?raw=true">
+
+
+Hmm.. a free-hand drawing cut-out seems a lot more convenient.
+
+
+
 
 --- 한국어 버전
